@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0088",
+ "channel": "web_form",
+ "received_at": "2026-01-07T08:42:09",
+ "from_name": "Oksana Petrenko",
+ "from_email": "oksana.petrenko84@inboxmail.example",
+ "claimed_order_id": "os-3810871",
+ "subject": "Item arrived damaged",
+ "message": "hi, sorry, I probably should have written sooner since it came last week. The plushie has a rip in it. It was already like that when it got here. Could I get a refund please? thanks",
+ "attachments": [
+  {
+   "filename": "image3.jpeg",
+   "stored_as": "photo.jpg",
+   "sha256": "d6b8dc3a85ae54322ee26324ef2763b3793e955cdd8941ad3222dc2f97e31152",
+   "phash": "f8b787499d2730c8"
+  }
+ ]
+}

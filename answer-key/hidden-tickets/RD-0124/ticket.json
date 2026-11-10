@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0124",
+ "channel": "web_form",
+ "received_at": "2026-01-08T06:08:19",
+ "from_name": "William Stanley",
+ "from_email": "wstanley60@ridgenet.example",
+ "claimed_order_id": "OS-3821585",
+ "subject": "Item arrived damaged",
+ "message": "Need a replacement plush sent out. The mailer bag came torn and the plush inside is probably damaged too. It was ordered for Thuy, my colleague, so it went to her. Thanks",
+ "attachments": [
+  {
+   "filename": "image.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "25e865f5b067a20fb0ff725c5d3e19d43c53a2a94c80c1bd0ff55b143ee7b250",
+   "phash": "fae2c487b5919992"
+  }
+ ]
+}

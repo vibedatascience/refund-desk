@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0036",
+ "channel": "email",
+ "received_at": "2026-01-05T17:32:59",
+ "from_name": "Anthony Marino",
+ "from_email": "tonymarino77@webmail.example",
+ "claimed_order_id": "OS-3785572",
+ "subject": "mugs box crushed",
+ "message": "can you send me another one the box came totally crushed and im sure the mugs inside are wrecked to order number is OS-3785572 dont know how it happend but i definitely need a new one Anthony",
+ "attachments": [
+  {
+   "filename": "image0.jpeg",
+   "stored_as": "photo.jpg",
+   "sha256": "3da95385780db2d6839421ba401fffa4cf3b14ee71715083b10bb860b90d1d89",
+   "phash": "8d07613c9e87753c"
+  }
+ ]
+}

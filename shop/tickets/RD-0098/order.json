@@ -1,0 +1,141 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3739209",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3739209",
+  "placed_on": "2025-12-07",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-5001-STA",
+    "product": "kit",
+    "name": "Claude Welcome Kit",
+    "color": "standard",
+    "size": null,
+    "flags": [],
+    "list_price": 94.0,
+    "discount_pct": 0,
+    "unit_price": 94.0,
+    "qty": 1,
+    "line_total": 94.0
+   }
+  ],
+  "totals": {
+   "subtotal": 94.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 6.58,
+   "total": 100.58
+  },
+  "payment": {
+   "method": "gift_card",
+   "last4": "6201"
+  },
+  "ship_to": {
+   "name": "James Scott",
+   "street": "3294 E Johnson Ln",
+   "city": "Belton",
+   "state": "SC",
+   "zip": "29627"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3739209-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB504109060566",
+    "shipped_on": "2025-12-10",
+    "delivered_on": "2025-12-12",
+    "events": [
+     {
+      "time": "2025-12-09 22:34",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-11 11:39",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-11 17:47",
+      "status": "arrived_at_facility",
+      "location": "Knoxville, TN"
+     },
+     {
+      "time": "2025-12-12 07:53",
+      "status": "out_for_delivery",
+      "location": "Anderson, SC"
+     },
+     {
+      "time": "2025-12-12 13:52",
+      "status": "delivered",
+      "location": "Belton, SC"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2128266",
+  "name": "James Scott",
+  "email": "jamesscott64@ridgenet.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2024-10-11",
+  "lifetime_orders": 5,
+  "lifetime_spend": 240.95,
+  "claims_history": [
+   {
+    "date": "2025-11-03",
+    "order_id": "OS-3585200",
+    "sku": "CL-4001-TER",
+    "item": "Claude Plush, Small",
+    "qty": 1,
+    "type": "wrong_item",
+    "outcome": "replaced",
+    "amount": 24.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-05-30",
+    "order_id": "OS-3284340",
+    "sku": "CL-3050-OAT-S",
+    "item": "Claude Hoodie",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 128.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified",
+   "newsletter",
+   "paperless_invoices"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-06-02",
+    "author": "T. Alvarez",
+    "role": "agent",
+    "text": "promo banner said 15% but cx saw 10% in cart. banner is for apparel only, cart had mugs. explained, cx ok"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-5001-STA": {
+   "on_hand": 68,
+   "status": "in_stock"
+  }
+ }
+}

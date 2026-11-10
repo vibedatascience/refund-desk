@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0150",
+ "channel": "email",
+ "received_at": "2026-01-09T11:40:39",
+ "from_name": "Linda Tucker",
+ "from_email": "lindat1953@webmail.example",
+ "claimed_order_id": "os-3819767",
+ "subject": "Order os-3819767 not received",
+ "message": "Please refund order os-3819767; tracking says delivered to the front door but nothing was there. I wrote yesterday and got no reply, so I would just like an answer this time.\n\nLinda Tucker",
+ "attachments": [
+  {
+   "filename": "20260107_182933.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "b6d8fa2f125501b737cb02ba89abed0af07bae033a305ea114a834b14ff7b508",
+   "phash": "bc9b23bc139c03dc"
+  }
+ ]
+}

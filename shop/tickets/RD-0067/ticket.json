@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0067",
+ "channel": "web_form",
+ "received_at": "2026-01-06T14:28:58",
+ "from_name": "Andrew Huber",
+ "from_email": "ahuber83@inboxmail.example",
+ "claimed_order_id": "3811967",
+ "subject": "Item arrived damaged",
+ "message": "Please send a replacement for order 3811967 as soon as possible. I need it by the 16th for a client event, so if it can ship this week that would help. Let me know if you need anything else from me to get it moving.\n\nThe plush was delivered yesterday afternoon. The box was crushed, and when I opened it the plush had a stain on it and was still damp. I can't put it out in front of clients like that. Please confirm once the replacement is on its way and send tracking when you have it.\n\nAndrew Huber",
+ "attachments": [
+  {
+   "filename": "IMG_20260106_124416.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "b773396479f81a7170b6a4d657ff1743d2a35ca58f48e7d227755ba235af2fc3",
+   "phash": "8d6ae2bd91922ec5"
+  }
+ ]
+}

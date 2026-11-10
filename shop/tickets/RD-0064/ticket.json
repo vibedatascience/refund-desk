@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0064",
+ "channel": "email",
+ "received_at": "2026-01-06T12:25:24",
+ "from_name": "Amina Mohamed",
+ "from_email": "amina.mohamed22@inboxmail.example",
+ "claimed_order_id": "OS-3812127",
+ "subject": "Return for the hoodies, order OS-3812127",
+ "message": "Hi 😊\n\nI'd like to send these back for a refund please.\nOur plans changed and we don't need them anymore.\nIt's all 3 of them, I haven't even opened the box.\nOrder number is OS-3812127 🙏\n\nThanks so much!\nAmina",
+ "attachments": [
+  {
+   "filename": "IMG_8678.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "075c91f765a562ecf6afec8190fdb48753236aeb45031385409f486cc7b6e7fe",
+   "phash": "c723689e13a53973"
+  }
+ ]
+}

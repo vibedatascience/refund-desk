@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0195",
+ "channel": "email",
+ "received_at": "2026-01-12T10:30:25",
+ "from_name": "Cynthia Rios",
+ "from_email": "cynthiarios79@inboxmail.example",
+ "claimed_order_id": "#3652972",
+ "subject": "return the tee",
+ "message": "so basically the tee I got from you guys um it's just not what I pictured when I ordered it, like I had something kind of different in my head about how it would look and it's just not really that, so um I'd like to send it back and get a refund if that's okay, the order number is #3652972 and um yeah just let me know what I need to do to send it back or if there's a label or something I should be printing out thanks so much\nCynthia Rios",
+ "attachments": [
+  {
+   "filename": "IMG_20260111_070320.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "c9cd6ead3c74ef751263d6ac22f41f90105c0864f52b4e10b1572667429faf28",
+   "phash": "ae1ad4660af67d90"
+  }
+ ]
+}

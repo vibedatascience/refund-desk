@@ -1,0 +1,210 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3652972",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3652972",
+  "placed_on": "2025-11-17",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2001-TER",
+    "product": "mug",
+    "name": "Claude Mug, 12 oz",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 16.0,
+    "discount_pct": 15,
+    "unit_price": 13.6,
+    "qty": 1,
+    "line_total": 13.6
+   },
+   {
+    "line": 2,
+    "sku": "CL-3001-CHA-S",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "charcoal",
+    "size": "S",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 15,
+    "unit_price": 21.25,
+    "qty": 1,
+    "line_total": 21.25
+   }
+  ],
+  "totals": {
+   "subtotal": 34.85,
+   "promo_code": "FIRSTLINE15",
+   "shipping_fee": 6.95,
+   "tax": 2.52,
+   "total": 44.32
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "0538"
+  },
+  "ship_to": {
+   "name": "Cynthia Rios",
+   "street": "68 Bent Tree Way",
+   "city": "York",
+   "state": "PA",
+   "zip": "17404"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3652972-S1",
+    "lines": [
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB398081411759",
+    "shipped_on": "2025-11-19",
+    "delivered_on": "2025-11-20",
+    "events": [
+     {
+      "time": "2025-11-18 20:35",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-11-19 09:22",
+      "status": "arrived_at_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2025-11-19 18:47",
+      "status": "departed_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2025-11-20 07:52",
+      "status": "out_for_delivery",
+      "location": "York, PA"
+     },
+     {
+      "time": "2025-11-20 11:37",
+      "status": "delivered",
+      "location": "York, PA"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3652972-S2",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB230066722390",
+    "shipped_on": "2025-11-20",
+    "delivered_on": "2025-11-22",
+    "events": [
+     {
+      "time": "2025-11-20 09:58",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-11-21 14:16",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-11-21 18:39",
+      "status": "arrived_at_facility",
+      "location": "New Stanton, PA"
+     },
+     {
+      "time": "2025-11-22 06:12",
+      "status": "out_for_delivery",
+      "location": "York, PA"
+     },
+     {
+      "time": "2025-11-22 12:59",
+      "status": "delivered",
+      "location": "York, PA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2617241",
+  "name": "Cynthia Rios",
+  "email": "cynthiarios79@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-11-17",
+  "lifetime_orders": 1,
+  "lifetime_spend": 44.32,
+  "claims_history": [],
+  "account_flags": [
+   "newsletter",
+   "sms_opt_in"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-2001-CHA": {
+   "on_hand": 63,
+   "status": "in_stock"
+  },
+  "CL-2001-CRE": {
+   "on_hand": 112,
+   "status": "in_stock"
+  },
+  "CL-2001-SAG": {
+   "on_hand": 1,
+   "status": "low_stock"
+  },
+  "CL-2001-TER": {
+   "on_hand": 547,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-2XL": {
+   "on_hand": 41,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-L": {
+   "on_hand": 79,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-CHA-S": {
+   "on_hand": 39,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XL": {
+   "on_hand": 18,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XS": {
+   "on_hand": 104,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-S": {
+   "on_hand": 98,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-S": {
+   "on_hand": 116,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-S": {
+   "on_hand": 17,
+   "status": "in_stock"
+  }
+ }
+}

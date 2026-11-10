@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0180",
+ "channel": "email",
+ "received_at": "2026-01-11T09:30:58",
+ "from_name": "Veronica Maldonado",
+ "from_email": "vmaldonado81@inboxmail.example",
+ "claimed_order_id": "OS-3819815",
+ "subject": "Order OS-3819815: plush received torn, refund requested",
+ "message": "Dear customer service,\n\nOn January 1 I placed order OS-3819815 for the Claude plush in terracotta. The order was delivered on January 5. When I took the plush out of the box I found that it was torn, so this is more than a loose thread. The plush has remained in the condition in which it arrived. One photograph is attached.\n\nI expect a refund for this order. I do not want a replacement, and I do not regard a repair on my part as acceptable. An item sold as new should arrive intact, and this one did not. If you require the plush to be sent back, I expect you to supply the label and the instructions.\n\nPlease confirm the refund in writing by January 16. If I have had no reply by that date, I will write again and quote this message.\n\nVeronica Maldonado",
+ "attachments": [
+  {
+   "filename": "image.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "fc5cbf56a894b79c81f12ddc59981b985064dad6c124d414ccb5a397995bbb86",
+   "phash": "9b21c4c6f3e2e3e0"
+  }
+ ]
+}

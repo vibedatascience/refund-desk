@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0068",
+ "channel": "web_form",
+ "received_at": "2026-01-06T15:17:03",
+ "from_name": "Peter Sokolowski",
+ "from_email": "psokolowski@quickpost.example",
+ "claimed_order_id": "3802065",
+ "subject": "Item arrived damaged",
+ "message": "Mug set, a gift from Veronica, arrived smashed, want a replacement, order 3802065.",
+ "attachments": [
+  {
+   "filename": "20260106_080439.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "b2eea5e8ac4585b7af84be768c292ba6842ba72fa9e8d75b900045d33662ce48",
+   "phash": "c3661dc79864371e"
+  }
+ ]
+}

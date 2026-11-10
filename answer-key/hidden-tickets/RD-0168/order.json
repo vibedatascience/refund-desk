@@ -1,0 +1,134 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3830309",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3830309",
+  "placed_on": "2026-01-07",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2004-CRE",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 0,
+    "unit_price": 56.0,
+    "qty": 1,
+    "line_total": 56.0
+   }
+  ],
+  "totals": {
+   "subtotal": 56.0,
+   "promo_code": null,
+   "shipping_fee": 6.95,
+   "tax": 4.34,
+   "total": 67.29
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "2125"
+  },
+  "ship_to": {
+   "name": "Beth Farmer",
+   "street": "9899 Industrial Park Ln",
+   "city": "Citrus Heights",
+   "state": "CA",
+   "zip": "95610"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3830309-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW7909724667US",
+    "shipped_on": "2026-01-08",
+    "delivered_on": "2026-01-09",
+    "events": [
+     {
+      "time": "2026-01-08 11:53",
+      "status": "label_created",
+      "location": "Reno, NV"
+     },
+     {
+      "time": "2026-01-08 23:52",
+      "status": "departed_facility",
+      "location": "Sparks, NV"
+     },
+     {
+      "time": "2026-01-09 04:33",
+      "status": "departed_facility",
+      "location": "West Sacramento, CA"
+     },
+     {
+      "time": "2026-01-09 07:08",
+      "status": "out_for_delivery",
+      "location": "Sacramento, CA"
+     },
+     {
+      "time": "2026-01-09 14:15",
+      "status": "delivered",
+      "location": "Citrus Heights, CA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1023704",
+  "name": "Beth Farmer",
+  "email": "thefarmerfamily4@webmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2024-06-13",
+  "lifetime_orders": 18,
+  "lifetime_spend": 1716.52,
+  "claims_history": [
+   {
+    "date": "2025-09-28",
+    "order_id": "OS-3501930",
+    "sku": "CL-5001-STA",
+    "item": "Claude Welcome Kit",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 94.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "birthday_offer_sent",
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-07-21",
+    "author": "L. Freeman",
+    "role": "agent",
+    "text": "trk # in OS-3378967 email was missing a digit?? gave correct one from Mottlewing Parcel portal, let ops know"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-2004-CRE": {
+   "on_hand": 18,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 69,
+   "status": "in_stock"
+  }
+ }
+}

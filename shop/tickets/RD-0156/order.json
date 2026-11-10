@@ -1,0 +1,112 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3815666",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3815666",
+  "placed_on": "2025-12-30",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2090-HR",
+    "product": "mug",
+    "name": "Claude Holiday Mug 2025 (final sale)",
+    "color": "holiday red",
+    "size": null,
+    "flags": [
+     "final_sale"
+    ],
+    "list_price": 10.0,
+    "discount_pct": 0,
+    "unit_price": 10.0,
+    "qty": 1,
+    "line_total": 10.0
+   }
+  ],
+  "totals": {
+   "subtotal": 10.0,
+   "promo_code": null,
+   "shipping_fee": 6.95,
+   "tax": 1.42,
+   "total": 18.37
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "4488"
+  },
+  "ship_to": {
+   "name": "Stacy Nakamura",
+   "street": "147 Holly St",
+   "city": "Yorktown Heights",
+   "state": "NY",
+   "zip": "10598"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3815666-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB689201867621",
+    "shipped_on": "2025-12-31",
+    "delivered_on": "2026-01-05",
+    "events": [
+     {
+      "time": "2025-12-31 05:48",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2026-01-02 18:19",
+      "status": "arrived_at_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2026-01-03 12:58",
+      "status": "held_at_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2026-01-05 07:04",
+      "status": "out_for_delivery",
+      "location": "White Plains, NY"
+     },
+     {
+      "time": "2026-01-05 12:14",
+      "status": "delivered",
+      "location": "Yorktown Heights, NY"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1711306",
+  "name": "Stacy Nakamura",
+  "email": "snakamura75@webmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-09-09",
+  "lifetime_orders": 18,
+  "lifetime_spend": 972.44,
+  "claims_history": [],
+  "account_flags": [
+   "birthday_offer_sent",
+   "email_verified"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-2090-HR": {
+   "on_hand": 1027,
+   "status": "in_stock"
+  }
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3821585",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3821585",
+  "placed_on": "2026-01-02",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-4001-TER",
+    "product": "plush",
+    "name": "Claude Plush, Small",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 24.0,
+    "discount_pct": 0,
+    "unit_price": 24.0,
+    "qty": 1,
+    "line_total": 24.0
+   }
+  ],
+  "totals": {
+   "subtotal": 24.0,
+   "promo_code": null,
+   "shipping_fee": 12.95,
+   "tax": 3.05,
+   "total": 40.0
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "6889"
+  },
+  "ship_to": {
+   "name": "Thuy Dang",
+   "street": "1778 N Sunset St, #11",
+   "city": "San Antonio",
+   "state": "TX",
+   "zip": "78250"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3821585-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "2-Day",
+    "tracking_no": "MW2924928954US",
+    "shipped_on": "2026-01-03",
+    "delivered_on": "2026-01-05",
+    "events": [
+     {
+      "time": "2026-01-03 08:06",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2026-01-03 16:25",
+      "status": "arrived_at_facility",
+      "location": "Haslet, TX"
+     },
+     {
+      "time": "2026-01-04 11:46",
+      "status": "departed_facility",
+      "location": "Haslet, TX"
+     },
+     {
+      "time": "2026-01-05 07:46",
+      "status": "out_for_delivery",
+      "location": "San Antonio, TX"
+     },
+     {
+      "time": "2026-01-05 12:29",
+      "status": "delivered",
+      "location": "San Antonio, TX"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1041264",
+  "name": "William Stanley",
+  "email": "wstanley60@ridgenet.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2024-05-02",
+  "lifetime_orders": 11,
+  "lifetime_spend": 731.01,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "paperless_invoices",
+   "sms_opt_in"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-12-15",
+    "author": "J. Kim",
+    "role": "agent",
+    "text": "cx asked if the stoneware mugs are dishwasher safe. confirmed top rack ok, microwave ok too"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-4001-TER": {
+   "on_hand": 178,
+   "status": "in_stock"
+  }
+ }
+}

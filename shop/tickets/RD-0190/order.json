@@ -1,0 +1,227 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3828430",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3828430",
+  "placed_on": "2026-01-06",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3050-CHA-M",
+    "product": "hoodie",
+    "name": "Claude Hoodie",
+    "color": "charcoal",
+    "size": "M",
+    "flags": [],
+    "list_price": 64.0,
+    "discount_pct": 15,
+    "unit_price": 54.4,
+    "qty": 1,
+    "line_total": 54.4
+   },
+   {
+    "line": 2,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 15,
+    "unit_price": 40.8,
+    "qty": 1,
+    "line_total": 40.8
+   }
+  ],
+  "totals": {
+   "subtotal": 95.2,
+   "promo_code": "WINTER15",
+   "shipping_fee": 0.0,
+   "tax": 6.9,
+   "total": 102.1
+  },
+  "payment": {
+   "method": "digital_wallet",
+   "last4": "7721"
+  },
+  "ship_to": {
+   "name": "Vivek Subramanian",
+   "street": "4195 Jefferson Rd",
+   "city": "Upper Sandusky",
+   "state": "OH",
+   "zip": "43351"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3828430-S1",
+    "lines": [
+     1,
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB801763467512",
+    "shipped_on": "2026-01-07",
+    "delivered_on": "2026-01-08",
+    "events": [
+     {
+      "time": "2026-01-07 10:12",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2026-01-07 15:07",
+      "status": "arrived_at_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2026-01-07 16:42",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2026-01-08 06:16",
+      "status": "out_for_delivery",
+      "location": "Marion, OH"
+     },
+     {
+      "time": "2026-01-08 09:03",
+      "status": "delivered",
+      "location": "Upper Sandusky, OH"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1237007",
+  "name": "Vivek Subramanian",
+  "email": "vivek.subramanian@fernmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2024-05-11",
+  "lifetime_orders": 17,
+  "lifetime_spend": 1263.23,
+  "claims_history": [
+   {
+    "date": "2025-12-07",
+    "order_id": "OS-3665170",
+    "sku": "CL-2090-HR",
+    "item": "Claude Holiday Mug 2025 (final sale)",
+    "qty": 2,
+    "type": "wrong_item",
+    "outcome": "refunded",
+    "amount": 20.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-11-13",
+    "order_id": "OS-3612570",
+    "sku": "CL-3090-HG-XL",
+    "item": "Claude Holiday Tee 2025 (final sale)",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 30.0,
+    "carrier_confirmed": true
+   },
+   {
+    "date": "2025-07-18",
+    "order_id": "OS-3367485",
+    "sku": "CL-2001-CRE",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 16.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-03-11",
+    "order_id": "OS-3144329",
+    "sku": "CL-4002-TER",
+    "item": "Claude Plush, Large",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "denied",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2024-07-03",
+    "order_id": "OS-2685679",
+    "sku": "CL-1001-CHA",
+    "item": "Claude Thinking Hat",
+    "qty": 2,
+    "type": "wrong_item",
+    "outcome": "refunded",
+    "amount": 56.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-01-09",
+    "author": "I. Sorensen",
+    "role": "agent",
+    "text": "asked when Claude Mug will be back in stock. no ETA on my end, showed cx the notify me button"
+   },
+   {
+    "date": "2025-07-18",
+    "author": "W. Pruett",
+    "role": "agent",
+    "text": "cx wrote in re Claude Mug from OS-3367485. checked pics + dates, refunded. CL-563596"
+   },
+   {
+    "date": "2025-12-07",
+    "author": "D. Castle",
+    "role": "agent",
+    "text": "CL-630074 closed - money back on Claude Holiday Mug 2025, cx thanked us"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-3050-CHA-2XL": {
+   "on_hand": 1,
+   "status": "low_stock"
+  },
+  "CL-3050-CHA-L": {
+   "on_hand": 19,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-M": {
+   "on_hand": 47,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-S": {
+   "on_hand": 56,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-XL": {
+   "on_hand": 27,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-M": {
+   "on_hand": 54,
+   "status": "in_stock"
+  },
+  "CL-3050-TER-M": {
+   "on_hand": 97,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 94,
+   "status": "in_stock"
+  }
+ }
+}

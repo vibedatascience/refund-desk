@@ -1,0 +1,4 @@
+.desk-*
+.env
+__pycache__/
+trial-log.zip

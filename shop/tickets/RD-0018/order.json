@@ -1,0 +1,182 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3737428",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3737428",
+  "placed_on": "2025-12-07",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-1001-CRE",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 15,
+    "unit_price": 23.8,
+    "qty": 1,
+    "line_total": 23.8
+   },
+   {
+    "line": 2,
+    "sku": "CL-2004-TER",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 15,
+    "unit_price": 47.6,
+    "qty": 1,
+    "line_total": 47.6
+   }
+  ],
+  "totals": {
+   "subtotal": 71.4,
+   "promo_code": "GIFTED15",
+   "shipping_fee": 6.95,
+   "tax": 4.71,
+   "total": 83.06
+  },
+  "payment": {
+   "method": "digital_wallet",
+   "last4": "1298"
+  },
+  "ship_to": {
+   "name": "Javier Miranda",
+   "street": "377 Division St",
+   "city": "York",
+   "state": "PA",
+   "zip": "17404"
+  },
+  "delivery_instructions": "Dog in backyard do NOT open gate!! front porch is fine",
+  "shipments": [
+   {
+    "shipment_id": "OS-3737428-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB882854060284",
+    "shipped_on": "2025-12-08",
+    "delivered_on": "2025-12-09",
+    "events": [
+     {
+      "time": "2025-12-08 07:48",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-08 15:37",
+      "status": "arrived_at_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2025-12-09 05:33",
+      "status": "arrived_at_facility",
+      "location": "York, PA"
+     },
+     {
+      "time": "2025-12-09 09:27",
+      "status": "out_for_delivery",
+      "location": "York, PA"
+     },
+     {
+      "time": "2025-12-09 14:32",
+      "status": "delivered",
+      "location": "York, PA"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3737428-S2",
+    "lines": [
+     2
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW1728798684US",
+    "shipped_on": "2025-12-30",
+    "delivered_on": "2026-01-02",
+    "events": [
+     {
+      "time": "2025-12-29 20:25",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-31 21:31",
+      "status": "held_at_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2026-01-02 02:13",
+      "status": "arrived_at_facility",
+      "location": "Harrisburg, PA"
+     },
+     {
+      "time": "2026-01-02 07:59",
+      "status": "out_for_delivery",
+      "location": "York, PA"
+     },
+     {
+      "time": "2026-01-02 16:47",
+      "status": "delivered",
+      "location": "York, PA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2449336",
+  "name": "Javier Miranda",
+  "email": "jmiranda86@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-07-14",
+  "lifetime_orders": 3,
+  "lifetime_spend": 324.48,
+  "claims_history": [],
+  "account_flags": [
+   "birthday_offer_sent",
+   "email_verified"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 51,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 140,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-2004-CRE": {
+   "on_hand": 26,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 81,
+   "status": "in_stock"
+  }
+ }
+}

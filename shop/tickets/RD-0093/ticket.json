@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0093",
+ "channel": "web_form",
+ "received_at": "2026-01-07T11:05:46",
+ "from_name": "Julie Stafford",
+ "from_email": "staffordfamily4@quickpost.example",
+ "claimed_order_id": "OS-3824740",
+ "subject": "Item arrived damaged",
+ "message": "need a refund on the claude plushie please it came this morning and theres a hole in it. actually i dont have alot of time today so if theres a seperate return thing i have to do just let me know what. thanks",
+ "attachments": [
+  {
+   "filename": "IMG_1408.HEIC",
+   "stored_as": "photo.jpg",
+   "sha256": "8e0a030cfc313c11d64945a2c23876571b6966b25dc72281b5c21a009bff1a22",
+   "phash": "aa5ad46dcb1a620f"
+  }
+ ]
+}

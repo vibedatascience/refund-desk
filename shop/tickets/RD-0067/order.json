@@ -1,0 +1,258 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3811967",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3811967",
+  "placed_on": "2025-12-28",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2004-TER",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 0,
+    "unit_price": 56.0,
+    "qty": 1,
+    "line_total": 56.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-1001-CRE",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 0,
+    "unit_price": 28.0,
+    "qty": 2,
+    "line_total": 56.0
+   },
+   {
+    "line": 3,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   }
+  ],
+  "totals": {
+   "subtotal": 160.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 11.2,
+   "total": 171.2
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "2930"
+  },
+  "ship_to": {
+   "name": "Andrew Huber",
+   "street": "4213 Patricia Ct, Ste 310",
+   "city": "Boynton Beach",
+   "state": "FL",
+   "zip": "33436"
+  },
+  "delivery_instructions": "storage shed behind the shop, its unlocked, put boxes in there thx",
+  "shipments": [
+   {
+    "shipment_id": "OS-3811967-S1",
+    "lines": [
+     1,
+     2,
+     3
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW9547375215US",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2026-01-05",
+    "events": [
+     {
+      "time": "2025-12-28 23:03",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-29 21:06",
+      "status": "held_at_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2026-01-02 14:17",
+      "status": "departed_facility",
+      "location": "Charlotte, NC"
+     },
+     {
+      "time": "2026-01-05 09:31",
+      "status": "out_for_delivery",
+      "location": "West Palm Beach, FL"
+     },
+     {
+      "time": "2026-01-05 14:58",
+      "status": "delivered",
+      "location": "Boynton Beach, FL"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1693035",
+  "name": "Andrew Huber",
+  "email": "ahuber83@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-08-03",
+  "lifetime_orders": 25,
+  "lifetime_spend": 1318.91,
+  "claims_history": [
+   {
+    "date": "2025-11-08",
+    "order_id": "OS-3585963",
+    "sku": "CL-3001-CHA-XS",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "wrong_item",
+    "outcome": "replaced",
+    "amount": 25.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-09-30",
+    "order_id": "OS-3497625",
+    "sku": "CL-4001-TER",
+    "item": "Claude Plush, Small",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 24.0,
+    "carrier_confirmed": true
+   },
+   {
+    "date": "2025-09-17",
+    "order_id": "OS-3478778",
+    "sku": "CL-2001-CRE",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 16.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-09-05",
+    "order_id": "OS-3442956",
+    "sku": "CL-3001-CRE-M",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "not_received",
+    "outcome": "denied",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-06-19",
+    "order_id": "OS-3315785",
+    "sku": "CL-1001-TER",
+    "item": "Claude Thinking Hat",
+    "qty": 2,
+    "type": "return",
+    "outcome": "refunded",
+    "amount": 56.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2024-08-11",
+    "order_id": "OS-2747390",
+    "sku": "CL-5001-STA",
+    "item": "Claude Welcome Kit",
+    "qty": 1,
+    "type": "return",
+    "outcome": "refunded",
+    "amount": 94.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2024-03-30",
+    "order_id": "OS-2564560",
+    "sku": "CL-3001-TER-M",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 25.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [],
+  "agent_notes": [
+   {
+    "date": "2024-08-11",
+    "author": "E. Sandoval",
+    "role": "agent",
+    "text": "refund issued CL-446072. cx fine with that, no further action"
+   },
+   {
+    "date": "2025-06-03",
+    "author": "B. Whitlock",
+    "role": "agent",
+    "text": "VM full, couldnt leave msg. will try again tmrw"
+   },
+   {
+    "date": "2025-09-17",
+    "author": "F. Lucero",
+    "role": "agent",
+    "text": "replacement order created for Claude Mug (CL-585695). cx ok to wait"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 69,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 125,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-2004-CRE": {
+   "on_hand": 24,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 77,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 120,
+   "status": "in_stock"
+  }
+ }
+}

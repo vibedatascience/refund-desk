@@ -1,0 +1,111 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3819815",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3819815",
+  "placed_on": "2026-01-01",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   }
+  ],
+  "totals": {
+   "subtotal": 48.0,
+   "promo_code": null,
+   "shipping_fee": 6.0,
+   "tax": 3.24,
+   "total": 57.24
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "4137"
+  },
+  "ship_to": {
+   "name": "Veronica Maldonado",
+   "street": "55 Meadow View Dr",
+   "city": "Coudersport",
+   "state": "PA",
+   "zip": "16915"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3819815-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "2-Day",
+    "tracking_no": "MW2084039771US",
+    "shipped_on": "2026-01-03",
+    "delivered_on": "2026-01-05",
+    "events": [
+     {
+      "time": "2026-01-03 06:00",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2026-01-03 09:38",
+      "status": "arrived_at_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2026-01-04 21:43",
+      "status": "departed_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2026-01-05 07:50",
+      "status": "out_for_delivery",
+      "location": "Olean, NY"
+     },
+     {
+      "time": "2026-01-05 12:00",
+      "status": "delivered",
+      "location": "Coudersport, PA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2719971",
+  "name": "Veronica Maldonado",
+  "email": "vmaldonado81@inboxmail.example",
+  "tier": "folio",
+  "folio_since": "2026-01-01",
+  "folio_lapsed_on": null,
+  "customer_since": "2026-01-01",
+  "lifetime_orders": 1,
+  "lifetime_spend": 57.24,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "newsletter",
+   "paperless_invoices"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-4002-TER": {
+   "on_hand": 100,
+   "status": "in_stock"
+  }
+ }
+}

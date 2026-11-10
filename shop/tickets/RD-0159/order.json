@@ -1,0 +1,140 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3815077",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3815077",
+  "placed_on": "2025-12-30",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2001-CHA",
+    "product": "mug",
+    "name": "Claude Mug, 12 oz",
+    "color": "charcoal",
+    "size": null,
+    "flags": [],
+    "list_price": 16.0,
+    "discount_pct": 0,
+    "unit_price": 16.0,
+    "qty": 1,
+    "line_total": 16.0
+   }
+  ],
+  "totals": {
+   "subtotal": 16.0,
+   "promo_code": null,
+   "shipping_fee": 6.0,
+   "tax": 1.21,
+   "total": 23.21
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "6131"
+  },
+  "ship_to": {
+   "name": "Jeffrey Stout",
+   "street": "163 Ashby Dr",
+   "city": "Oshkosh",
+   "state": "WI",
+   "zip": "54902"
+  },
+  "delivery_instructions": "put in the shed on right side of house, its unlocked",
+  "shipments": [
+   {
+    "shipment_id": "OS-3815077-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "2-Day",
+    "tracking_no": "MW6743349649US",
+    "shipped_on": "2025-12-31",
+    "delivered_on": "2026-01-03",
+    "events": [
+     {
+      "time": "2025-12-31 13:43",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2026-01-02 10:22",
+      "status": "departed_facility",
+      "location": "Grove City, OH"
+     },
+     {
+      "time": "2026-01-02 15:44",
+      "status": "arrived_at_facility",
+      "location": "Joliet, IL"
+     },
+     {
+      "time": "2026-01-03 06:31",
+      "status": "out_for_delivery",
+      "location": "Oshkosh, WI"
+     },
+     {
+      "time": "2026-01-03 15:18",
+      "status": "delivered",
+      "location": "Oshkosh, WI"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1036391",
+  "name": "Jeffrey Stout",
+  "email": "jeffstout@ridgenet.example",
+  "tier": "folio",
+  "folio_since": "2023-07-13",
+  "folio_lapsed_on": null,
+  "customer_since": "2023-07-13",
+  "lifetime_orders": 11,
+  "lifetime_spend": 732.28,
+  "claims_history": [
+   {
+    "date": "2025-10-10",
+    "order_id": "OS-3518397",
+    "sku": "CL-4002-TER",
+    "item": "Claude Plush, Large",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 96.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "paperless_invoices"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-10-10",
+    "author": "P. Lindqvist",
+    "role": "agent",
+    "text": "new Claude Plush on its way, CL-594779. cx confirmed same ship-to"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-2001-CHA": {
+   "on_hand": 93,
+   "status": "in_stock"
+  },
+  "CL-2001-CRE": {
+   "on_hand": 125,
+   "status": "in_stock"
+  },
+  "CL-2001-SAG": {
+   "on_hand": 2,
+   "status": "low_stock"
+  },
+  "CL-2001-TER": {
+   "on_hand": 618,
+   "status": "in_stock"
+  }
+ }
+}

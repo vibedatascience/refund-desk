@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0008",
+ "channel": "chat",
+ "received_at": "2026-01-05T08:57:44",
+ "from_name": "Diane Turner",
+ "from_email": "dianeturner59@webmail.example",
+ "claimed_order_id": "OS-3807438",
+ "subject": null,
+ "message": "Hello, my cream thinking hat was delivered on December 30, and it arrived damaged.\nThere is a stain on it, and I noticed it as soon as I took the hat out of the bag. I have not worn it or tried to clean it.\nI would like a refund rather than a replacement, please. Could you confirm that this is possible? Thank you.",
+ "attachments": [
+  {
+   "filename": "IMG_5893.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "f9a36b8b9f08c3263a91fd794df5da55ab29e356169644afca560d4ea34ee1af",
+   "phash": "9de2336dc9661932"
+  }
+ ]
+}

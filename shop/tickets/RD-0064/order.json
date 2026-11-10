@@ -1,0 +1,153 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3812127",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3812127",
+  "placed_on": "2025-12-29",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3050-CHA-XL",
+    "product": "hoodie",
+    "name": "Claude Hoodie",
+    "color": "charcoal",
+    "size": "XL",
+    "flags": [],
+    "list_price": 64.0,
+    "discount_pct": 0,
+    "unit_price": 64.0,
+    "qty": 3,
+    "line_total": 192.0
+   }
+  ],
+  "totals": {
+   "subtotal": 192.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 15.84,
+   "total": 207.84
+  },
+  "payment": {
+   "method": "pay_later",
+   "last4": null
+  },
+  "ship_to": {
+   "name": "Amina Mohamed",
+   "street": "13304 Valley View Dr",
+   "city": "Pasadena",
+   "state": "TX",
+   "zip": "77505"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3812127-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB736509214570",
+    "shipped_on": "2025-12-30",
+    "delivered_on": "2026-01-05",
+    "events": [
+     {
+      "time": "2025-12-30 12:39",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2025-12-30 17:42",
+      "status": "arrived_at_facility",
+      "location": "Roanoke, TX"
+     },
+     {
+      "time": "2026-01-03 04:00",
+      "status": "departed_facility",
+      "location": "Roanoke, TX"
+     },
+     {
+      "time": "2026-01-05 07:08",
+      "status": "out_for_delivery",
+      "location": "Houston, TX"
+     },
+     {
+      "time": "2026-01-05 11:14",
+      "status": "delivered",
+      "location": "Pasadena, TX"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1372717",
+  "name": "Amina Mohamed",
+  "email": "amina.mohamed22@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-07-06",
+  "lifetime_orders": 11,
+  "lifetime_spend": 913.06,
+  "claims_history": [
+   {
+    "date": "2024-02-11",
+    "order_id": "OS-2505773",
+    "sku": "CL-3001-CRE-L",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 25.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified",
+   "paperless_invoices"
+  ],
+  "agent_notes": [
+   {
+    "date": "2024-02-11",
+    "author": "I. Sorensen",
+    "role": "agent",
+    "text": "CL-401689 closed - money back on Claude Tee, cx thanked us"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-3050-CHA-2XL": {
+   "on_hand": 3,
+   "status": "low_stock"
+  },
+  "CL-3050-CHA-L": {
+   "on_hand": 67,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-M": {
+   "on_hand": 73,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-S": {
+   "on_hand": 38,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-XL": {
+   "on_hand": 29,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-XL": {
+   "on_hand": 40,
+   "status": "in_stock"
+  },
+  "CL-3050-TER-XL": {
+   "on_hand": 3,
+   "status": "low_stock"
+  }
+ }
+}

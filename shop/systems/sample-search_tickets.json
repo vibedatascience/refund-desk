@@ -1,0 +1,31 @@
+{
+  "search": {
+    "by": "address",
+    "ticket_id": "RD-0046",
+    "this_account": "acct-2770cb",
+    "open_tickets_searched": 63
+  },
+  "matches": [
+    {
+      "ticket_id": "RD-0072",
+      "received_at": "2026-01-06T16:16:19",
+      "match": "same street address and unit",
+      "account": "acct-73d750",
+      "other_account": true
+    },
+    {
+      "ticket_id": "RD-0087",
+      "received_at": "2026-01-07T08:10:26",
+      "match": "same street address and unit",
+      "account": "acct-b8590c",
+      "other_account": true
+    },
+    {
+      "ticket_id": "RD-0188",
+      "received_at": "2026-01-11T22:30:46",
+      "match": "same street address and unit",
+      "account": "acct-9055bf",
+      "other_account": true
+    }
+  ]
+}

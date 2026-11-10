@@ -1,0 +1,5 @@
+{
+ "model": "claude-haiku-5-5",
+ "pass_quality": 1,
+ "sees": ["message", "decision"]
+}

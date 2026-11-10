@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0168",
+ "channel": "web_form",
+ "received_at": "2026-01-10T14:47:49",
+ "from_name": "Beth Farmer",
+ "from_email": "thefarmerfamily4@webmail.example",
+ "claimed_order_id": "OS-3830309",
+ "subject": "Item arrived damaged",
+ "message": "The mug set I got yesterday came smashed up. I already sent a message about this last night around 1 am and haven't heard a thing, so here it is again. They're broken, I can't use them, and I want my money back. I don't know what else you need from me. Please just have someone answer this time.\nBeth",
+ "attachments": [
+  {
+   "filename": "IMG20260109182825.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "a0156652ec22767c9a239251ea2505f561e6f1162f518429d5f4d9d2e347da17",
+   "phash": "e8f1f2cc643099cb"
+  }
+ ]
+}

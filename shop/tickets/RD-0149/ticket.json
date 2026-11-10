@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0149",
+ "channel": "web_form",
+ "received_at": "2026-01-09T10:40:23",
+ "from_name": "Caitlin Black",
+ "from_email": "caitlinblack97@ridgenet.example",
+ "claimed_order_id": "0S-3825707",
+ "subject": "Item arrived damaged",
+ "message": "hi! so i got my claude mug on wednesday and its got a crack in it 😭 i was so excited for it too, the color is definitely as cute as i hoped! dont think i can really keep it like this tho. hoping i can get a refund if thats ok 🙂 thanks!!",
+ "attachments": [
+  {
+   "filename": "IMG_6649.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "be46d951c094897ed96560cf89281aadafd6d658800de8c10463fd7c8b18395f",
+   "phash": "a56ccbda612d2e92"
+  }
+ ]
+}

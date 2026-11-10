@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0098",
+ "channel": "app",
+ "received_at": "2026-01-07T12:09:31",
+ "from_name": "James Scott",
+ "from_email": "jamesscott64@ridgenet.example",
+ "claimed_order_id": "OS-3739209",
+ "subject": null,
+ "message": "can i still send back the welcome kit for a refund? order is OS-3739209\ngot it last month its basicly like new\ndo i need a lable from you guys or do i just mail it back",
+ "attachments": [
+  {
+   "filename": "upload_1767805171.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "d05af786afe94d9be3188259bfda57d568b1d8e6a537511bc2352ed529b98a0d",
+   "phash": "fd3d98f0b00783d1"
+  }
+ ]
+}

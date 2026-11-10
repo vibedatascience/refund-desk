@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(./rd run:*)",
+      "Bash(./rd score:*)",
+      "Bash(./rd failures:*)",
+      "Bash(./rd case:*)",
+      "Bash(./rd restore:*)",
+      "Bash(./rd diff:*)",
+      "Bash(./rd grade:*)",
+      "Bash(./rd setup:*)",
+      "Bash(./rd check:*)",
+      "Bash(./rd new-tests:*)",
+      "Bash(./rd prove-tools:*)",
+      "Bash(./rd trial-log:*)",
+      "Bash(./rd --help:*)"
+    ],
+    "deny": [
+      "Edit(/my-work/judge/tests/**)",
+      "Read(/answer-key/**)",
+      "Read(/trial-log.zip)",
+      "Read(/.env)",
+      "Read(/.env.*)",
+      "Read(/.desk-*)",
+      "Read(/my-work/runs/**)",
+      "Edit(/shop/**)",
+      "Edit(/answer-key/**)",
+      "Edit(/harness/**)",
+      "Edit(/workshop/**)",
+      "Edit(/my-work/runs/**)",
+      "Edit(/my-work/versions/**)",
+      "Edit(/.claude/**)",
+      "Edit(/rd)",
+      "Edit(/start.sh)",
+      "Edit(/README.md)",
+      "Edit(/CLAUDE.md)",
+      "Edit(/.env)",
+      "Edit(/.env.*)",
+      "Edit(/.desk-*)",
+      "Edit(/my-work/README.md)",
+      "Edit(/my-work/FORMAT.md)"
+    ]
+  }
+}

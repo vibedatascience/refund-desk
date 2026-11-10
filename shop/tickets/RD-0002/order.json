@@ -1,0 +1,208 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3812325",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3812325",
+  "placed_on": "2025-12-29",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-1001-SAG",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "sage",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 10,
+    "unit_price": 25.2,
+    "qty": 1,
+    "line_total": 25.2
+   }
+  ],
+  "totals": {
+   "subtotal": 25.2,
+   "promo_code": "STANZA10",
+   "shipping_fee": 6.95,
+   "tax": 2.13,
+   "total": 34.28
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "4860"
+  },
+  "ship_to": {
+   "name": "Aisha Siddiqui",
+   "street": "811 N Oak St, Unit 115",
+   "city": "Bloomfield",
+   "state": "NJ",
+   "zip": "07003"
+  },
+  "delivery_instructions": "PLEASE DO NOT LEAVE IN LOBBY. BRING UP TO UNIT 115",
+  "shipments": [
+   {
+    "shipment_id": "OS-3812325-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW3166708573US",
+    "shipped_on": "2025-12-30",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-30 17:43",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-31 00:22",
+      "status": "departed_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2025-12-31 01:53",
+      "status": "arrived_at_facility",
+      "location": "Secaucus, NJ"
+     },
+     {
+      "time": "2025-12-31 08:48",
+      "status": "out_for_delivery",
+      "location": "Newark, NJ"
+     },
+     {
+      "time": "2025-12-31 13:00",
+      "status": "delivered",
+      "location": "Bloomfield, NJ"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1115486",
+  "name": "Aisha Siddiqui",
+  "email": "aishasiddiqui99@fernmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-10-22",
+  "lifetime_orders": 20,
+  "lifetime_spend": 1072.15,
+  "claims_history": [
+   {
+    "date": "2025-12-19",
+    "order_id": "OS-3728055",
+    "sku": "CL-2001-TER",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "wrong_item",
+    "outcome": "refunded",
+    "amount": 16.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-09-27",
+    "order_id": "OS-3498367",
+    "sku": "CL-3001-CHA-M",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 25.0,
+    "carrier_confirmed": true
+   },
+   {
+    "date": "2025-08-19",
+    "order_id": "OS-3345485",
+    "sku": "CL-2001-CRE",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "denied",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-04-25",
+    "order_id": "OS-3218334",
+    "sku": "CL-4001-TER",
+    "item": "Claude Plush, Small",
+    "qty": 1,
+    "type": "return",
+    "outcome": "withdrawn",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-02-26",
+    "order_id": "OS-3125349",
+    "sku": "CL-3050-TER-M",
+    "item": "Claude Hoodie",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 128.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2024-02-01",
+    "order_id": "OS-2500344",
+    "sku": "CL-3050-CHA-S",
+    "item": "Claude Hoodie",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 64.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": [
+   {
+    "date": "2024-02-01",
+    "author": "R. Halloran",
+    "role": "agent",
+    "text": "cx wrote in re Claude Hoodie from OS-2500344. checked pics + dates, refunded. CL-399679"
+   },
+   {
+    "date": "2025-02-26",
+    "author": "B. Whitlock",
+    "role": "agent",
+    "text": "new Claude Hoodie on its way, CL-517478. cx confirmed same ship-to"
+   },
+   {
+    "date": "2025-04-25",
+    "author": "N. Petrov",
+    "role": "agent",
+    "text": "CL-534916: cx says never mind. closed"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 53,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 143,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  }
+ }
+}

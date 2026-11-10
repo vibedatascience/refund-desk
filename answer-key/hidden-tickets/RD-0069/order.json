@@ -1,0 +1,122 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3803480",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3803480",
+  "placed_on": "2025-12-24",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2001-CRE",
+    "product": "mug",
+    "name": "Claude Mug, 12 oz",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 16.0,
+    "discount_pct": 0,
+    "unit_price": 16.0,
+    "qty": 12,
+    "line_total": 192.0
+   }
+  ],
+  "totals": {
+   "subtotal": 192.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 13.44,
+   "total": 205.44
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "9003"
+  },
+  "ship_to": {
+   "name": "Adriana Marquez",
+   "street": "3984 Liberty Blvd, Ste 105",
+   "city": "Land O' Lakes",
+   "state": "FL",
+   "zip": "34639"
+  },
+  "delivery_instructions": "leave w receptionist ste 105",
+  "shipments": [
+   {
+    "shipment_id": "OS-3803480-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW9643271345US",
+    "shipped_on": "2025-12-24",
+    "delivered_on": "2025-12-30",
+    "events": [
+     {
+      "time": "2025-12-24 13:54",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-26 19:32",
+      "status": "arrived_at_facility",
+      "location": "Jacksonville, FL"
+     },
+     {
+      "time": "2025-12-28 20:18",
+      "status": "held_at_facility",
+      "location": "Orlando, FL"
+     },
+     {
+      "time": "2025-12-30 06:21",
+      "status": "out_for_delivery",
+      "location": "Tampa, FL"
+     },
+     {
+      "time": "2025-12-30 12:34",
+      "status": "delivered",
+      "location": "Land O' Lakes, FL"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2108549",
+  "name": "Adriana Marquez",
+  "email": "adriana.marquez@marquezhairstudio.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2024-09-21",
+  "lifetime_orders": 9,
+  "lifetime_spend": 858.65,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "sms_opt_in"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-2001-CHA": {
+   "on_hand": 113,
+   "status": "in_stock"
+  },
+  "CL-2001-CRE": {
+   "on_hand": 142,
+   "status": "in_stock"
+  },
+  "CL-2001-SAG": {
+   "on_hand": 3,
+   "status": "low_stock"
+  },
+  "CL-2001-TER": {
+   "on_hand": 717,
+   "status": "in_stock"
+  }
+ }
+}

@@ -1,0 +1,239 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3785572",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3785572",
+  "placed_on": "2025-12-18",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-1001-SAG",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "sage",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 20,
+    "unit_price": 22.4,
+    "qty": 1,
+    "line_total": 22.4
+   },
+   {
+    "line": 2,
+    "sku": "CL-2004-CRE",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 20,
+    "unit_price": 44.8,
+    "qty": 1,
+    "line_total": 44.8
+   }
+  ],
+  "totals": {
+   "subtotal": 67.2,
+   "promo_code": "STANZA20",
+   "shipping_fee": 0.0,
+   "tax": 4.87,
+   "total": 72.07
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "5215"
+  },
+  "ship_to": {
+   "name": "Anthony Marino",
+   "street": "360 S Harrison St",
+   "city": "Raleigh",
+   "state": "NC",
+   "zip": "27610"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3785572-S1",
+    "lines": [
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB830363801659",
+    "shipped_on": "2025-12-19",
+    "delivered_on": "2025-12-29",
+    "events": [
+     {
+      "time": "2025-12-19 15:18",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2025-12-24 14:32",
+      "status": "held_at_facility",
+      "location": "Nashville, TN"
+     },
+     {
+      "time": "2025-12-26 08:11",
+      "status": "departed_facility",
+      "location": "Nashville, TN"
+     },
+     {
+      "time": "2025-12-29 09:21",
+      "status": "out_for_delivery",
+      "location": "Raleigh, NC"
+     },
+     {
+      "time": "2025-12-29 14:57",
+      "status": "delivered",
+      "location": "Raleigh, NC"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3785572-S2",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB393660037018",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-29 13:00",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-30 12:32",
+      "status": "departed_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2025-12-30 15:41",
+      "status": "arrived_at_facility",
+      "location": "Landover, MD"
+     },
+     {
+      "time": "2025-12-31 09:40",
+      "status": "out_for_delivery",
+      "location": "Raleigh, NC"
+     },
+     {
+      "time": "2025-12-31 14:47",
+      "status": "delivered",
+      "location": "Raleigh, NC"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2020771",
+  "name": "Anthony Marino",
+  "email": "tonymarino77@webmail.example",
+  "tier": "folio",
+  "folio_since": "2024-12-13",
+  "folio_lapsed_on": null,
+  "customer_since": "2024-06-12",
+  "lifetime_orders": 7,
+  "lifetime_spend": 302.57,
+  "claims_history": [
+   {
+    "date": "2025-12-22",
+    "order_id": "OS-3758239",
+    "sku": "CL-4002-TER",
+    "item": "Claude Plush, Large",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 48.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-10-31",
+    "order_id": "OS-3573896",
+    "sku": "CL-2090-HR",
+    "item": "Claude Holiday Mug 2025 (final sale)",
+    "qty": 1,
+    "type": "wrong_item",
+    "outcome": "refunded",
+    "amount": 10.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-10-18",
+    "order_id": "OS-3510015",
+    "sku": "CL-3001-SAG-L",
+    "item": "Claude Tee",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 50.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-10-06",
+    "order_id": "OS-3502817",
+    "sku": "CL-3050-OAT-S",
+    "item": "Claude Hoodie",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 64.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-08-19",
+    "order_id": "OS-3425504",
+    "sku": "CL-4002-TER",
+    "item": "Claude Plush, Large",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 96.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified",
+   "gift_wrap_default",
+   "newsletter"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 51,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 138,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-2004-CRE": {
+   "on_hand": 26,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 79,
+   "status": "in_stock"
+  }
+ }
+}

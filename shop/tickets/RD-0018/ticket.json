@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0018",
+ "channel": "web_form",
+ "received_at": "2026-01-05T11:46:22",
+ "from_name": "Javier Miranda",
+ "from_email": "jmiranda86@inboxmail.example",
+ "claimed_order_id": "os-3737428",
+ "subject": "Item arrived damaged",
+ "message": "I want a full refund on the hat. My order that just came has a stain on it and it is wet. It is not in a condition I can keep, so please set that up, thanks.",
+ "attachments": [
+  {
+   "filename": "20260105_111616.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "b6f3a84d90750b6a2b746bbb8265bb55a681b5ba18d4a89a8c1f8cb7dc4193b9",
+   "phash": "95c66cb1954cc973"
+  }
+ ]
+}

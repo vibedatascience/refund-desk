@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0133",
+ "channel": "email",
+ "received_at": "2026-01-08T14:05:27",
+ "from_name": "Ebony Harris",
+ "from_email": "ebonyh89@inboxmail.example",
+ "claimed_order_id": "#3822086",
+ "subject": "Re: stained tee, order #3822086",
+ "message": "Still nothing back on the email I sent yesterday afternoon, so I'm trying again, not that I expect much. Order #3822086, the tee came with a wet-looking mark on it.\n\nI'd just like it swapped for a good one, sent to my new apartment instead: 418 Larkmoor Street, Apt 2B. Can someone please get back to me on this?",
+ "attachments": [
+  {
+   "filename": "IMG_4999.jpeg",
+   "stored_as": "photo.jpg",
+   "sha256": "10ac72532d3e1817a372d9d28c6e77a835a9165030dc992dee2a1856103829b5",
+   "phash": "c195867b2a76936c"
+  }
+ ]
+}

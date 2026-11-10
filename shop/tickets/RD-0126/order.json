@@ -1,0 +1,201 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3810587",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3810587",
+  "placed_on": "2025-12-28",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2004-CRE",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 0,
+    "unit_price": 56.0,
+    "qty": 1,
+    "line_total": 56.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-3001-SAG-M",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "sage",
+    "size": "M",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 0,
+    "unit_price": 25.0,
+    "qty": 2,
+    "line_total": 50.0
+   }
+  ],
+  "totals": {
+   "subtotal": 106.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 8.48,
+   "total": 114.48
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "3559"
+  },
+  "ship_to": {
+   "name": "Kenneth Rhodes",
+   "street": "5922 Tolliver Dr, Apt 2",
+   "city": "Grove City",
+   "state": "OH",
+   "zip": "43123"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3810587-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB809526367201",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2026-01-02",
+    "events": [
+     {
+      "time": "2025-12-29 08:59",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2025-12-30 23:51",
+      "status": "arrived_at_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-31 11:48",
+      "status": "delayed_weather",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2026-01-02 09:10",
+      "status": "out_for_delivery",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2026-01-02 15:28",
+      "status": "delivered",
+      "location": "Grove City, OH"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3810587-S2",
+    "lines": [
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB733899491295",
+    "shipped_on": "2025-12-30",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-29 20:23",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-30 11:38",
+      "status": "arrived_at_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-31 01:31",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-31 09:10",
+      "status": "out_for_delivery",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-31 15:13",
+      "status": "delivered",
+      "location": "Grove City, OH"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1792954",
+  "name": "Kenneth Rhodes",
+  "email": "kenrhodes58@homelink.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-09-27",
+  "lifetime_orders": 17,
+  "lifetime_spend": 1272.6,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-2004-CRE": {
+   "on_hand": 22,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 75,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-CRE-M": {
+   "on_hand": 424,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-2XL": {
+   "on_hand": 7,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-L": {
+   "on_hand": 53,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-M": {
+   "on_hand": 180,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-S": {
+   "on_hand": 157,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-XL": {
+   "on_hand": 202,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-XS": {
+   "on_hand": 150,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  }
+ }
+}

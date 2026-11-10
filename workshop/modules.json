@@ -1,0 +1,213 @@
+{
+ "version": 9,
+ "path_minutes": 40,
+ "stage_minutes": 60,
+ "fold_label": "Go further",
+ "background_title": "Background",
+ "background": [
+  {
+   "id": "reference",
+   "title": "Reference",
+   "line": ""
+  }
+ ],
+ "modules": [
+  {
+   "id": "setup",
+   "view": "setup",
+   "title": "Set up",
+   "minutes": 4,
+   "stage_minutes": 3,
+   "why": "One key, one button: your agent is created on the platform.",
+   "steps": [
+    {
+     "do": "Paste your API key and press **Deploy**.",
+     "kind": "button",
+     "target": "#setup-deploy",
+     "text": null
+    },
+    {
+     "do": "What is in this folder",
+     "kind": "prompt",
+     "target": null,
+     "text": "Read CLAUDE.md.\nTell me in three lines what this repo does, what the loop is, and which files you may change."
+    }
+   ],
+   "learning": {
+    "headline": "The harness is built. You change three files.",
+    "body": "You and Claude Code edit only `my-work/agent/`: a prompt, a guide, a small config. Whatever you run is logged by itself, as a new version when the agent has changed.",
+    "figures": []
+   },
+   "cma": {
+    "you": "create an environment and an agent once; after that, only sessions",
+    "platform": "runs the sandbox, the tool loop and the history",
+    "text": null
+   },
+   "deeper": [],
+   "presenter": "Deploy before you go on. On stage show the ticks for a minute; the room sets up while you go on.",
+   "n": 0,
+   "clock": "0:00",
+   "stage_clock": "0:00"
+  },
+  {
+   "id": "run",
+   "view": "run",
+   "title": "Agent runs",
+   "minutes": 10,
+   "stage_minutes": 16,
+   "why": "Every run of the claims agent. Open one to see its claims.",
+   "steps": [
+    {
+     "do": "Run the claims agent",
+     "kind": "prompt",
+     "target": null,
+     "text": "Run the claims agent: ./rd run\nIt runs on Haiku 5.5 at low effort, as my-work/agent/agent.json says, and the judge reads every reply as it comes in.\nWhen it ends, give me handled, then decision, policy and reply one by one, the cost and the time."
+    }
+   ],
+   "learning": {
+    "headline": "Score the whole job.",
+    "body": "Decision and policy have one right answer: code grades them. The reply has none, so a judge reads it. A claim is handled only when all three are right.",
+    "figures": []
+   },
+   "cma": {
+    "you": "deploy the look-up tools and the store's records with the agent; take in one decision per ticket",
+    "platform": "a fresh container and context per ticket, where the agent runs its look-ups; retries on its side",
+    "text": null
+   },
+   "deeper": [],
+   "presenter": "The page starts empty. Open two claims and let the room vote: refund, replace, deny or escalate, and which policy? Then press Run. Open one claim and read it top down: claim, transcript, output, and what the judge says of the reply.",
+   "n": 1,
+   "clock": "0:04",
+   "stage_clock": "0:03"
+  },
+  {
+   "id": "compare",
+   "view": "compare",
+   "title": "Fix and run again",
+   "minutes": 9,
+   "stage_minutes": 13,
+   "why": "Climb on Haiku at low effort: one fix, one run, look, again.",
+   "steps": [
+    {
+     "do": "Read the failures",
+     "kind": "prompt",
+     "target": null,
+     "text": "Run ./rd failures --json\nEach claim says failed_at: decision, policy or reply. Say which part loses most claims.\nThen group the failures by likely cause and rank the groups by how many claims each would free.\nPer group: one example id, and the line of the guide or the prompt (my-work/agent/) that explains it, or say that nothing covers it.\nChange nothing yet."
+    },
+    {
+     "do": "Fix the group that frees most claims",
+     "kind": "prompt",
+     "target": null,
+     "text": "Take only the group that would free the most claims: it may be about deciding, citing or replying.\nRewrite the section of the guide (my-work/agent/handbook/SKILL.md) that causes it, and any line that contradicts your rewrite.\nWrite a general rule, never ticket ids or answers. Take facts from shop/handbook/ (appendix-e-replies.md for replies), not from guesses.\nLeave model and effort as they are.\nThen ./rd run --note \"what you changed and why\", and ./rd diff\nWhat happened to decision, policy and reply? What broke elsewhere?"
+    },
+    {
+     "do": "Go round again",
+     "kind": "prompt",
+     "target": null,
+     "text": "./rd failures --json: which part loses most claims now? Take its biggest group, fix that one thing, run and diff again.\nIf something broke that was right before, say whether the rule is wrong or only worded too broadly."
+    }
+   ],
+   "learning": {
+    "headline": "The bottleneck moves.",
+    "body": "Fix the part that loses most claims, and another becomes the one that holds you back. Compare claim by claim, part by part; run close calls again.",
+    "figures": []
+   },
+   "cma": {
+    "you": "just run: a changed agent is logged and deployed as a new version",
+    "platform": "each session pins an agent version; old versions still run",
+    "text": null
+   },
+   "deeper": [],
+   "presenter": "Show one broken ticket. Then go round again: the climb on this page grows with every run. Keep model and effort still, so that only the guide moves the score.",
+   "n": 2,
+   "clock": "0:14",
+   "stage_clock": "0:19"
+  },
+  {
+   "id": "replies",
+   "view": "replies",
+   "title": "How it is graded",
+   "minutes": 5,
+   "stage_minutes": 8,
+   "why": "Code grades all it can. A model grades the rest, and you can make it better.",
+   "steps": [
+    {
+     "do": "Is the judge any good?",
+     "kind": "prompt",
+     "target": null,
+     "text": "Test my judge on replies whose truth is known: ./rd grade --test\nHow many faulty replies does it stop, and how many good ones by mistake? Always both numbers. Read what it let through and what it stopped wrongly."
+    },
+    {
+     "do": "Make it better",
+     "kind": "prompt",
+     "target": null,
+     "text": "In my last run, read five of the judge's reasons against the reply: ./rd failures --json\nDoes it judge the reply, or the decision behind it? Change one idea in my-work/judge/judge.md and test again: ./rd grade --test\nIf it got better, judge every run again with it, so that they compare: ./rd grade --all\nAt the very end, once: ./rd grade --test --unseen. Is it better there too, or only fitted to the 32?"
+    },
+    {
+     "do": "Fix the replies",
+     "kind": "prompt",
+     "target": null,
+     "text": "./rd failures --json: take the group of replies the judge objects to most.\nRewrite the part about replies in my-work/agent/handbook/SKILL.md. Facts come from shop/handbook/appendix-e-replies.md.\nThen ./rd run --note \"what I changed\" and ./rd diff."
+    }
+   ],
+   "learning": {
+    "headline": "Code where one answer is right, a judge where none is.",
+    "body": "Code is free, instant and always the same, so let it grade all it can. Keep the model for what is left, and test it: how many faulty replies does it stop, and how many good ones by mistake?",
+    "figures": []
+   },
+   "cma": {
+    "you": "one Messages API call per reply; the judge is not an agent",
+    "platform": "the agent's sessions are done: judging changes nothing in them",
+    "text": null
+   },
+   "deeper": [],
+   "presenter": "Walk down the four graders on one claim: code, code, code, model. Ask which of them could be wrong. Then show the judge: five blunt rules. Test it on the 32 known replies, let the room name one change, test again.",
+   "n": 3,
+   "clock": "0:23",
+   "stage_clock": "0:32"
+  },
+  {
+   "id": "frontier",
+   "view": "frontier",
+   "title": "Models and efforts",
+   "minutes": 10,
+   "stage_minutes": 15,
+   "why": "Same agent, other models and efforts. Then 8 new tests.",
+   "steps": [
+    {
+     "do": "Other models, same low effort",
+     "kind": "prompt",
+     "target": null,
+     "text": "Change nothing in my agent. Run it on Sonnet at the same effort: ./rd run --model claude-sonnet-5-5 --effort low\nCompare with my last Haiku run: right, cost per successful case, cost of mistakes. What did the bigger model fix?"
+    },
+    {
+     "do": "More effort, on Haiku and on Sonnet",
+     "kind": "prompt",
+     "target": null,
+     "text": "Same agent: ./rd run --effort medium, then ./rd run --effort high\nThen Sonnet: ./rd run --model claude-sonnet-5-5 --effort medium, then --effort high\nThen ./rd score. Is Haiku at high effort as good as Sonnet at low? Which would you ship, and why?"
+    },
+    {
+     "do": "8 new tests",
+     "kind": "prompt",
+     "target": null,
+     "text": "We have 8 new tests. Turn them on: ./rd new-tests on\nRun them with my agent as it is, then with the first draft: ./rd run --set new, then ./rd run 1 --set new\nThen ./rd diff 1 last --set new. Did my gain hold, on all three parts? Which new test does it fail, and why (./rd failures --set new)?\nThere are only 8, so say what they can and cannot show. Change nothing yet."
+    }
+   ],
+   "learning": {
+    "headline": "Fix the guide first, then buy model or effort.",
+    "body": "Model and effort are two dials on one price. Turn one at a time on the same tickets. Where two settings are within noise, take the cheaper one; a dearer one pays where it prevents costly mistakes.",
+    "figures": []
+   },
+   "cma": {
+    "you": "one line per session, no new version",
+    "platform": "each session reports its tokens and seconds",
+    "text": "\"model\": {\"id\": \"claude-sonnet-5-5\", \"effort\": \"low\"}"
+   },
+   "deeper": [],
+   "presenter": "Fill the first column together, then split the room: left half efforts on Haiku, right half efforts on Sonnet. Ask: is Haiku high as good as Sonnet low? Opus is there if somebody asks. Close with the 8 new tests: everybody turns them on (./rd new-tests on, or the button on this page), runs them and sees them on the dashboard. A smoke test, not a score. Forge $9999 on one claim.",
+   "n": 4,
+   "clock": "0:28",
+   "stage_clock": "0:40"
+  }
+ ]
+}

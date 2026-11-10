@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0110",
+ "channel": "chat",
+ "received_at": "2026-01-07T17:28:33",
+ "from_name": "Ricardo Serrano",
+ "from_email": "rserrano1976@inboxmail.example",
+ "claimed_order_id": "OS-3810846",
+ "subject": null,
+ "message": "Hola, buenas\nHice un pedido de la sudadera Claude color avena en talla 2XL\nMe llegó el 31, pero es la misma sudadera en talla L, no la que pedí\n¿Me pueden enviar un reemplazo en talla 2XL, por favor?\nDíganme también si tengo que devolver la L y cómo lo hago\nMuchas gracias",
+ "attachments": [
+  {
+   "filename": "IMG_0049.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "7d9356ad288a7d40f478179e3bc4331fa24e1bf7f1b83eea21e04d73d38413c5",
+   "phash": "91066f6d2b6b6839"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3811230",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3811230",
+  "placed_on": "2025-12-28",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-3001-CRE-XL",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "cream",
+    "size": "XL",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 0,
+    "unit_price": 25.0,
+    "qty": 2,
+    "line_total": 50.0
+   }
+  ],
+  "totals": {
+   "subtotal": 98.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 5.88,
+   "total": 103.88
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "2681"
+  },
+  "ship_to": {
+   "name": "Kevin Schneider",
+   "street": "555 W 14th St",
+   "city": "Woodbridge",
+   "state": "VA",
+   "zip": "22193-6363"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3811230-S1",
+    "lines": [
+     1,
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB284024279954",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-29 15:23",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-30 09:20",
+      "status": "departed_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2025-12-30 12:28",
+      "status": "arrived_at_facility",
+      "location": "Landover, MD"
+     },
+     {
+      "time": "2025-12-31 06:49",
+      "status": "out_for_delivery",
+      "location": "Springfield, VA"
+     },
+     {
+      "time": "2025-12-31 16:56",
+      "status": "delivered",
+      "location": "Woodbridge, VA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2303229",
+  "name": "Kevin Schneider",
+  "email": "kschneider22@fernmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-02-26",
+  "lifetime_orders": 3,
+  "lifetime_spend": 187.62,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "sms_opt_in"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-3001-CHA-XL": {
+   "on_hand": 31,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-2XL": {
+   "on_hand": 13,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-L": {
+   "on_hand": 318,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-M": {
+   "on_hand": 425,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-S": {
+   "on_hand": 151,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-XL": {
+   "on_hand": 49,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-XS": {
+   "on_hand": 16,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-XL": {
+   "on_hand": 204,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-XL": {
+   "on_hand": 56,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 114,
+   "status": "in_stock"
+  }
+ }
+}

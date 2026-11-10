@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0159",
+ "channel": "chat",
+ "received_at": "2026-01-09T21:03:13",
+ "from_name": "Jeffrey Stout",
+ "from_email": "jeffstout@ridgenet.example",
+ "claimed_order_id": "OS-3815077",
+ "subject": null,
+ "message": "hi the claude mug finaly got here and its cracked the charcoal one\ntheres a crack in the mug so i cant use it like that\ni dont care if you send a new one or just give me the money back either way is fine with me whatever is easyer\nthanks",
+ "attachments": [
+  {
+   "filename": "IMG_0836.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "14489de25266234e3fc67147aa53a13127c690ed96b76d31d79aa49f1c1d0f5b",
+   "phash": "a16ccdc137685f91"
+  }
+ ]
+}

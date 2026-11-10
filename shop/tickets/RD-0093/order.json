@@ -1,0 +1,128 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3824740",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3824740",
+  "placed_on": "2026-01-04",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   }
+  ],
+  "totals": {
+   "subtotal": 48.0,
+   "promo_code": null,
+   "shipping_fee": 6.95,
+   "tax": 4.01,
+   "total": 58.96
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "6595"
+  },
+  "ship_to": {
+   "name": "Julie Stafford",
+   "street": "40 Hamilton Rd, Unit 216",
+   "city": "Belleville",
+   "state": "IL",
+   "zip": "62221"
+  },
+  "delivery_instructions": "side entrance on the alley, code *9859, leave just inside",
+  "shipments": [
+   {
+    "shipment_id": "OS-3824740-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW6598131630US",
+    "shipped_on": "2026-01-05",
+    "delivered_on": "2026-01-07",
+    "events": [
+     {
+      "time": "2026-01-05 13:52",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2026-01-06 13:04",
+      "status": "departed_facility",
+      "location": "Grove City, OH"
+     },
+     {
+      "time": "2026-01-06 20:52",
+      "status": "arrived_at_facility",
+      "location": "St. Louis, MO"
+     },
+     {
+      "time": "2026-01-07 07:09",
+      "status": "out_for_delivery",
+      "location": "Sauget, IL"
+     },
+     {
+      "time": "2026-01-07 07:59",
+      "status": "delivered",
+      "location": "Belleville, IL"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2397882",
+  "name": "Julie Stafford",
+  "email": "staffordfamily4@quickpost.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-05-28",
+  "lifetime_orders": 3,
+  "lifetime_spend": 198.54,
+  "claims_history": [
+   {
+    "date": "2025-10-06",
+    "order_id": "OS-3512024",
+    "sku": "CL-2001-CRE",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "wrong_item",
+    "outcome": "refunded",
+    "amount": 16.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-10-06",
+    "author": "A. Novak",
+    "role": "agent",
+    "text": "processed CL-593118 (Claude Mug), refund. sent confirmation"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-4002-TER": {
+   "on_hand": 117,
+   "status": "in_stock"
+  }
+ }
+}

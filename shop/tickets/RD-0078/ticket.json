@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0078",
+ "channel": "web_form",
+ "received_at": "2026-01-06T18:46:08",
+ "from_name": "Rosa Trujillo",
+ "from_email": "rosatrujillo68@homelink.example",
+ "claimed_order_id": "3808110",
+ "subject": "Item arrived damaged",
+ "message": "Both hats Dennis gave me arrived torn. The packing slip says order 3808110, and I don't mind how you fix it, so what happens next?",
+ "attachments": [
+  {
+   "filename": "20260106_175002.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "66672f2b55b51609ebc165d857ad49e7ab966cae03ffb0cc743b126a922008ea",
+   "phash": "d3616c3e3bb0b119"
+  }
+ ]
+}

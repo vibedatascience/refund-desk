@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0165",
+ "channel": "email",
+ "received_at": "2026-01-10T13:38:58",
+ "from_name": "Lisa Hart",
+ "from_email": "lisahart@inboxmail.example",
+ "claimed_order_id": "OS-3821368",
+ "subject": "refund order OS-3821368",
+ "message": "want a refund for order OS-3821368. mug arrived smashed and i cut my hand on it unpacking needed stitches. definately not ok",
+ "attachments": [
+  {
+   "filename": "IMG_0055.JPG",
+   "stored_as": "photo.jpg",
+   "sha256": "e57c499f1c0ffdf362858128cf6bf06573927edc79867620cef477c9473d543b",
+   "phash": "e1f1b387cc5a4631"
+  }
+ ]
+}

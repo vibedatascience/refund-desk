@@ -1,0 +1,346 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3802641",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3802641",
+  "placed_on": "2025-12-23",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3001-CHA-S",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "charcoal",
+    "size": "S",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 0,
+    "unit_price": 25.0,
+    "qty": 1,
+    "line_total": 25.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-2004-TER",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 0,
+    "unit_price": 56.0,
+    "qty": 1,
+    "line_total": 56.0
+   },
+   {
+    "line": 3,
+    "sku": "CL-4001-TER",
+    "product": "plush",
+    "name": "Claude Plush, Small",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 24.0,
+    "discount_pct": 0,
+    "unit_price": 24.0,
+    "qty": 1,
+    "line_total": 24.0
+   },
+   {
+    "line": 4,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   },
+   {
+    "line": 5,
+    "sku": "CL-1001-CRE",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 0,
+    "unit_price": 28.0,
+    "qty": 2,
+    "line_total": 56.0
+   }
+  ],
+  "totals": {
+   "subtotal": 209.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 13.06,
+   "total": 222.06
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "7842"
+  },
+  "ship_to": {
+   "name": "Holly Sherman",
+   "street": "30 Belmont Rd, Apt 12",
+   "city": "West Roxbury",
+   "state": "MA",
+   "zip": "02132"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3802641-S1",
+    "lines": [
+     2
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW5974156431US",
+    "shipped_on": "2025-12-24",
+    "delivered_on": "2025-12-29",
+    "events": [
+     {
+      "time": "2025-12-24 15:56",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-27 09:28",
+      "status": "departed_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2025-12-27 14:22",
+      "status": "arrived_at_facility",
+      "location": "Shrewsbury, MA"
+     },
+     {
+      "time": "2025-12-29 07:34",
+      "status": "out_for_delivery",
+      "location": "Boston, MA"
+     },
+     {
+      "time": "2025-12-29 17:06",
+      "status": "delivered",
+      "location": "West Roxbury, MA"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3802641-S2",
+    "lines": [
+     1,
+     3,
+     4,
+     5
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB574953291584",
+    "shipped_on": "2025-12-27",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-27 16:11",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-29 04:07",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-31 02:10",
+      "status": "departed_facility",
+      "location": "Shrewsbury, MA"
+     },
+     {
+      "time": "2025-12-31 08:49",
+      "status": "out_for_delivery",
+      "location": "Boston, MA"
+     },
+     {
+      "time": "2025-12-31 11:32",
+      "status": "delivered",
+      "location": "West Roxbury, MA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1781422",
+  "name": "Holly Sherman",
+  "email": "hsherman@postbox.example",
+  "tier": "folio",
+  "folio_since": "2025-10-19",
+  "folio_lapsed_on": null,
+  "customer_since": "2023-09-11",
+  "lifetime_orders": 7,
+  "lifetime_spend": 533.56,
+  "claims_history": [
+   {
+    "date": "2025-11-09",
+    "order_id": "OS-3585519",
+    "sku": "CL-2004-TER",
+    "item": "Claude Mug Set of 4",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 56.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-08-12",
+    "order_id": "OS-3408806",
+    "sku": "CL-2001-CRE",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 16.0,
+    "carrier_confirmed": true
+   },
+   {
+    "date": "2025-05-25",
+    "order_id": "OS-3255107",
+    "sku": "CL-3001-CRE-M",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "not_received",
+    "outcome": "denied",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2024-12-29",
+    "order_id": "OS-2962278",
+    "sku": "CL-3001-TER-XS",
+    "item": "Claude Tee",
+    "qty": 1,
+    "type": "not_received",
+    "outcome": "withdrawn",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2024-10-08",
+    "order_id": "OS-2812839",
+    "sku": "CL-2001-TER",
+    "item": "Claude Mug, 12 oz",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 16.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": [
+   {
+    "date": "2024-12-29",
+    "author": "F. Lucero",
+    "role": "agent",
+    "text": "cx withdrew CL-500968, found the Claude Tee after all"
+   },
+   {
+    "date": "2025-05-25",
+    "author": "P. Lindqvist",
+    "role": "agent",
+    "text": "CL-545399 - not covered, told cx why. no escalation asked"
+   },
+   {
+    "date": "2025-11-09",
+    "author": "L. Freeman",
+    "role": "agent",
+    "text": "CL-608791: refund for Claude Mug Set of 4 on OS-3585519 put through, told cx 3-5 business days"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 51,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 142,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-2004-CRE": {
+   "on_hand": 26,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 81,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-2XL": {
+   "on_hand": 46,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-L": {
+   "on_hand": 146,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-CHA-S": {
+   "on_hand": 59,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XL": {
+   "on_hand": 53,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XS": {
+   "on_hand": 82,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-S": {
+   "on_hand": 174,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-S": {
+   "on_hand": 181,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-S": {
+   "on_hand": 74,
+   "status": "in_stock"
+  },
+  "CL-4001-TER": {
+   "on_hand": 217,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 132,
+   "status": "in_stock"
+  }
+ }
+}

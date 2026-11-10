@@ -1,0 +1,147 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3810846",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3810846",
+  "placed_on": "2025-12-28",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3050-OAT-2XL",
+    "product": "hoodie",
+    "name": "Claude Hoodie",
+    "color": "oatmeal",
+    "size": "2XL",
+    "flags": [],
+    "list_price": 64.0,
+    "discount_pct": 0,
+    "unit_price": 64.0,
+    "qty": 1,
+    "line_total": 64.0
+   }
+  ],
+  "totals": {
+   "subtotal": 64.0,
+   "promo_code": null,
+   "shipping_fee": 6.95,
+   "tax": 5.68,
+   "total": 76.63
+  },
+  "payment": {
+   "method": "pay_later",
+   "last4": null
+  },
+  "ship_to": {
+   "name": "Ricardo Serrano",
+   "street": "2181 Madison St",
+   "city": "Parma",
+   "state": "OH",
+   "zip": "44134-9204"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3810846-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW8617489977US",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-29 13:09",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-29 17:03",
+      "status": "arrived_at_facility",
+      "location": "Grove City, OH"
+     },
+     {
+      "time": "2025-12-31 01:37",
+      "status": "departed_facility",
+      "location": "Grove City, OH"
+     },
+     {
+      "time": "2025-12-31 07:36",
+      "status": "out_for_delivery",
+      "location": "Cleveland, OH"
+     },
+     {
+      "time": "2025-12-31 16:00",
+      "status": "delivered",
+      "location": "Parma, OH"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1259715",
+  "name": "Ricardo Serrano",
+  "email": "rserrano1976@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-06-11",
+  "lifetime_orders": 6,
+  "lifetime_spend": 493.41,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": [
+   {
+    "date": "2023-07-21",
+    "author": "Y. Adeyemi",
+    "role": "agent",
+    "text": "cx asking ETA on OS-2219017, Mottlewing Parcel shows out for delivery tomorrow. told cx"
+   },
+   {
+    "date": "2024-07-06",
+    "author": "S. Rahman",
+    "role": "agent",
+    "text": "cb done re: OS-2701538, told cx Mottlewing Parcel now shows out for delivery"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-3050-CHA-2XL": {
+   "on_hand": 1,
+   "status": "low_stock"
+  },
+  "CL-3050-OAT-2XL": {
+   "on_hand": 20,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-L": {
+   "on_hand": 73,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-M": {
+   "on_hand": 67,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-S": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3050-OAT-XL": {
+   "on_hand": 39,
+   "status": "in_stock"
+  },
+  "CL-3050-TER-2XL": {
+   "on_hand": 23,
+   "status": "in_stock"
+  }
+ }
+}

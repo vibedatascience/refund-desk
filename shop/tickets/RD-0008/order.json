@@ -1,0 +1,202 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3807438",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3807438",
+  "placed_on": "2025-12-26",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2004-TER",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 10,
+    "unit_price": 50.4,
+    "qty": 1,
+    "line_total": 50.4
+   },
+   {
+    "line": 2,
+    "sku": "CL-1001-CRE",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 10,
+    "unit_price": 25.2,
+    "qty": 1,
+    "line_total": 25.2
+   }
+  ],
+  "totals": {
+   "subtotal": 75.6,
+   "promo_code": "WINTER10",
+   "shipping_fee": 0.0,
+   "tax": 6.78,
+   "total": 82.38
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "8513"
+  },
+  "ship_to": {
+   "name": "Gina Moretti",
+   "street": "9505 Hollis Way, Unit 217",
+   "city": "Kansas City",
+   "state": "MO",
+   "zip": "64118"
+  },
+  "delivery_instructions": "apt 217 3rd floor, no elevator sorry. leave on mat",
+  "shipments": [
+   {
+    "shipment_id": "OS-3807438-S1",
+    "lines": [
+     2
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW5417399235US",
+    "shipped_on": "2025-12-26",
+    "delivered_on": "2025-12-30",
+    "events": [
+     {
+      "time": "2025-12-26 12:50",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2025-12-26 19:52",
+      "status": "arrived_at_facility",
+      "location": "Haslet, TX"
+     },
+     {
+      "time": "2025-12-28 15:15",
+      "status": "departed_facility",
+      "location": "Haslet, TX"
+     },
+     {
+      "time": "2025-12-30 07:41",
+      "status": "out_for_delivery",
+      "location": "Kansas City, MO"
+     },
+     {
+      "time": "2025-12-30 10:54",
+      "status": "delivered",
+      "location": "Kansas City, MO"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3807438-S2",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB484769051550",
+    "shipped_on": "2025-12-27",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-27 06:38",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-28 16:51",
+      "status": "held_at_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-29 15:29",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-31 05:58",
+      "status": "out_for_delivery",
+      "location": "Kansas City, MO"
+     },
+     {
+      "time": "2025-12-31 20:09",
+      "status": "delivered",
+      "location": "Kansas City, MO"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1610771",
+  "name": "Gina Moretti",
+  "email": "ginam81@postbox.example",
+  "tier": "folio",
+  "folio_since": "2024-10-14",
+  "folio_lapsed_on": null,
+  "customer_since": "2023-06-15",
+  "lifetime_orders": 8,
+  "lifetime_spend": 580.27,
+  "claims_history": [
+   {
+    "date": "2025-11-23",
+    "order_id": "OS-3644463",
+    "sku": "CL-3090-HG-XL",
+    "item": "Claude Holiday Tee 2025 (final sale)",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 15.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "birthday_offer_sent",
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-09-29",
+    "author": "K. Tanaka",
+    "role": "agent",
+    "text": "cx asked for a manager just to praise the Claude Plush. mgr took the call, all good"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 51,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 142,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-2004-CRE": {
+   "on_hand": 26,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 81,
+   "status": "in_stock"
+  }
+ }
+}

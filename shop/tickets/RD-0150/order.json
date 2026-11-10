@@ -1,0 +1,121 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3819767",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3819767",
+  "placed_on": "2026-01-01",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-1001-CRE",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 0,
+    "unit_price": 28.0,
+    "qty": 1,
+    "line_total": 28.0
+   }
+  ],
+  "totals": {
+   "subtotal": 28.0,
+   "promo_code": null,
+   "shipping_fee": 6.95,
+   "tax": 2.27,
+   "total": 37.22
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "1429"
+  },
+  "ship_to": {
+   "name": "Linda Tucker",
+   "street": "8945 Mill Pond Rd",
+   "city": "Peoria",
+   "state": "AZ",
+   "zip": "85345"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3819767-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW3436456731US",
+    "shipped_on": "2026-01-02",
+    "delivered_on": "2026-01-07",
+    "events": [
+     {
+      "time": "2026-01-02 15:41",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2026-01-03 17:22",
+      "status": "held_at_facility",
+      "location": "Haslet, TX"
+     },
+     {
+      "time": "2026-01-05 16:48",
+      "status": "held_at_facility",
+      "location": "Albuquerque, NM"
+     },
+     {
+      "time": "2026-01-07 08:55",
+      "status": "out_for_delivery",
+      "location": "Glendale, AZ"
+     },
+     {
+      "time": "2026-01-07 13:31",
+      "status": "delivered",
+      "location": "Peoria, AZ"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2422320",
+  "name": "Linda Tucker",
+  "email": "lindat1953@webmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-06-19",
+  "lifetime_orders": 2,
+  "lifetime_spend": 98.65,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 53,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 96,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  }
+ }
+}

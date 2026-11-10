@@ -1,0 +1,239 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3810871",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3810871",
+  "placed_on": "2025-12-28",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-2004-TER",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 0,
+    "unit_price": 56.0,
+    "qty": 1,
+    "line_total": 56.0
+   },
+   {
+    "line": 3,
+    "sku": "CL-3050-CHA-2XL",
+    "product": "hoodie",
+    "name": "Claude Hoodie",
+    "color": "charcoal",
+    "size": "2XL",
+    "flags": [],
+    "list_price": 64.0,
+    "discount_pct": 0,
+    "unit_price": 64.0,
+    "qty": 1,
+    "line_total": 64.0
+   }
+  ],
+  "totals": {
+   "subtotal": 168.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 10.08,
+   "total": 178.08
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "2636"
+  },
+  "ship_to": {
+   "name": "Oksana Petrenko",
+   "street": "620 Wadsworth Ln",
+   "city": "Chesapeake",
+   "state": "VA",
+   "zip": "23320-5930"
+  },
+  "delivery_instructions": "carport, on the bench",
+  "shipments": [
+   {
+    "shipment_id": "OS-3810871-S1",
+    "lines": [
+     1,
+     2,
+     3
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW1664748106US",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2026-01-02",
+    "events": [
+     {
+      "time": "2025-12-28 21:29",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-30 17:02",
+      "status": "held_at_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2025-12-31 15:50",
+      "status": "departed_facility",
+      "location": "Bethlehem, PA"
+     },
+     {
+      "time": "2026-01-02 08:35",
+      "status": "out_for_delivery",
+      "location": "Chesapeake, VA"
+     },
+     {
+      "time": "2026-01-02 13:31",
+      "status": "delivered",
+      "location": "Chesapeake, VA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1957774",
+  "name": "Oksana Petrenko",
+  "email": "oksana.petrenko84@inboxmail.example",
+  "tier": "folio",
+  "folio_since": "2024-07-23",
+  "folio_lapsed_on": null,
+  "customer_since": "2024-03-28",
+  "lifetime_orders": 20,
+  "lifetime_spend": 1076.75,
+  "claims_history": [
+   {
+    "date": "2025-11-13",
+    "order_id": "OS-3599723",
+    "sku": "CL-1001-SAG",
+    "item": "Claude Thinking Hat",
+    "qty": 2,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 56.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-10-24",
+    "order_id": "OS-3558254",
+    "sku": "CL-5001-STA",
+    "item": "Claude Welcome Kit",
+    "qty": 1,
+    "type": "not_received",
+    "outcome": "refunded",
+    "amount": 94.0,
+    "carrier_confirmed": true
+   },
+   {
+    "date": "2025-10-01",
+    "order_id": "OS-3505691",
+    "sku": "CL-5001-STA",
+    "item": "Claude Welcome Kit",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 94.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-09-25",
+    "order_id": "OS-3488119",
+    "sku": "CL-4001-TER",
+    "item": "Claude Plush, Small",
+    "qty": 1,
+    "type": "wrong_item",
+    "outcome": "denied",
+    "amount": 0.0,
+    "carrier_confirmed": false
+   },
+   {
+    "date": "2025-07-10",
+    "order_id": "OS-3361321",
+    "sku": "CL-1001-CHA",
+    "item": "Claude Thinking Hat",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 28.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-10-01",
+    "author": "P. Lindqvist",
+    "role": "agent",
+    "text": "CL-591115 closed - money back on Claude Welcome Kit, cx thanked us"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-2004-CRE": {
+   "on_hand": 22,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 74,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-2XL": {
+   "on_hand": 3,
+   "status": "low_stock"
+  },
+  "CL-3050-CHA-L": {
+   "on_hand": 63,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-M": {
+   "on_hand": 70,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-S": {
+   "on_hand": 36,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-XL": {
+   "on_hand": 29,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-2XL": {
+   "on_hand": 20,
+   "status": "in_stock"
+  },
+  "CL-3050-TER-2XL": {
+   "on_hand": 25,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 118,
+   "status": "in_stock"
+  }
+ }
+}

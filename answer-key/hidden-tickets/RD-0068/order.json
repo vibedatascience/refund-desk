@@ -1,0 +1,243 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3802065",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3802065",
+  "placed_on": "2025-12-23",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-4001-TER",
+    "product": "plush",
+    "name": "Claude Plush, Small",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 24.0,
+    "discount_pct": 0,
+    "unit_price": 24.0,
+    "qty": 1,
+    "line_total": 24.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-3050-OAT-M",
+    "product": "hoodie",
+    "name": "Claude Hoodie",
+    "color": "oatmeal",
+    "size": "M",
+    "flags": [],
+    "list_price": 64.0,
+    "discount_pct": 0,
+    "unit_price": 64.0,
+    "qty": 2,
+    "line_total": 128.0
+   },
+   {
+    "line": 3,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 2,
+    "line_total": 96.0
+   },
+   {
+    "line": 4,
+    "sku": "CL-2004-TER",
+    "product": "mug_set",
+    "name": "Claude Mug Set of 4",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 56.0,
+    "discount_pct": 0,
+    "unit_price": 56.0,
+    "qty": 1,
+    "line_total": 56.0
+   }
+  ],
+  "totals": {
+   "subtotal": 304.0,
+   "promo_code": null,
+   "shipping_fee": 8.0,
+   "tax": 14.04,
+   "total": 326.04
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "4659"
+  },
+  "ship_to": {
+   "name": "Peter Sokolowski",
+   "street": "269 Nancy Ln",
+   "city": "Hilo",
+   "state": "HI",
+   "zip": "96720"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3802065-S1",
+    "lines": [
+     1,
+     3
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Priority",
+    "tracking_no": "WB305206044658",
+    "shipped_on": "2025-12-24",
+    "delivered_on": "2025-12-27",
+    "events": [
+     {
+      "time": "2025-12-24 08:14",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-24 21:33",
+      "status": "arrived_at_facility",
+      "location": "Ontario, CA"
+     },
+     {
+      "time": "2025-12-26 02:24",
+      "status": "departed_facility",
+      "location": "Ontario, CA"
+     },
+     {
+      "time": "2025-12-27 07:15",
+      "status": "out_for_delivery",
+      "location": "Hilo, HI"
+     },
+     {
+      "time": "2025-12-27 18:22",
+      "status": "delivered",
+      "location": "Hilo, HI"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3802065-S2",
+    "lines": [
+     2,
+     4
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Priority",
+    "tracking_no": "WB316370178041",
+    "shipped_on": "2025-12-24",
+    "delivered_on": "2025-12-29",
+    "events": [
+     {
+      "time": "2025-12-24 09:11",
+      "status": "label_created",
+      "location": "Reno, NV"
+     },
+     {
+      "time": "2025-12-24 16:11",
+      "status": "delayed_high_volume",
+      "location": "Fernley, NV"
+     },
+     {
+      "time": "2025-12-27 17:01",
+      "status": "departed_facility",
+      "location": "Ontario, CA"
+     },
+     {
+      "time": "2025-12-29 07:39",
+      "status": "out_for_delivery",
+      "location": "Hilo, HI"
+     },
+     {
+      "time": "2025-12-29 12:34",
+      "status": "delivered",
+      "location": "Hilo, HI"
+     }
+    ]
+   }
+  ],
+  "gift": {
+   "recipient_name": "Peter Sokolowski",
+   "recipient_email": "psokolowski@quickpost.example",
+   "gift_message": "happy holidays from all of us in Denver. miss you guys"
+  }
+ },
+ "customer": {
+  "customer_id": "C-1767418",
+  "name": "Veronica Galvan",
+  "email": "vgalvan82@fernmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-08-22",
+  "lifetime_orders": 7,
+  "lifetime_spend": 709.45,
+  "claims_history": [],
+  "account_flags": [
+   "address_changed_2025",
+   "email_verified"
+  ],
+  "agent_notes": [
+   {
+    "date": "2023-11-01",
+    "author": "D. Castle",
+    "role": "agent",
+    "text": "wording on survey q3 confusing per cx. noted, passed to the insights team"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-2004-CRE": {
+   "on_hand": 23,
+   "status": "in_stock"
+  },
+  "CL-2004-TER": {
+   "on_hand": 76,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-M": {
+   "on_hand": 73,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-2XL": {
+   "on_hand": 18,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-L": {
+   "on_hand": 78,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-M": {
+   "on_hand": 71,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-S": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3050-OAT-XL": {
+   "on_hand": 41,
+   "status": "in_stock"
+  },
+  "CL-3050-TER-M": {
+   "on_hand": 74,
+   "status": "in_stock"
+  },
+  "CL-4001-TER": {
+   "on_hand": 199,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 119,
+   "status": "in_stock"
+  }
+ }
+}

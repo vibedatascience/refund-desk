@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0006",
+ "channel": "web_form",
+ "received_at": "2026-01-05T08:40:15",
+ "from_name": "Holly Sherman",
+ "from_email": "hsherman@postbox.example",
+ "claimed_order_id": "OS-3802641",
+ "subject": "Item arrived damaged",
+ "message": "Please send me a replacement for the mug set. One of the mugs has a chip, which I noticed when I unpacked the box on the day it came. I know it's been about a week and I don't want to miss any deadline for this, so a quick answer would really help. I'd rather not send the set back. Thanks",
+ "attachments": [
+  {
+   "filename": "image4.jpeg",
+   "stored_as": "photo.jpg",
+   "sha256": "a95ef4ff76d5f42a184fb5602e140870f7a588e1b7b0d63aec56f6ed0fd5f9d6",
+   "phash": "818080e3fb7e3e3b"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0123",
+ "channel": "web_form",
+ "received_at": "2026-01-08T03:38:52",
+ "from_name": "Kevin Schneider",
+ "from_email": "kschneider22@fernmail.example",
+ "claimed_order_id": "OS-3811230",
+ "subject": "Item arrived damaged",
+ "message": "hi, my order OS-3811230 came on New Year's Eve in the afternoon and I brought the box inside and opened it that evening, and the box didn't seem to have anything wrong with it that I could see, and then I took the plushie out of the plastic it was wrapped in and set it down on the floor to look at it, and then I saw it was ripped, with stuffing coming out. I didn't pull on it or try to push the stuffing back in or anything like that. I meant to write to you right away but with the holiday I didn't get to it until now, so I hope that's okay. There's a picture attached. I would like a refund please, I don't really want to try another one after this one came like this. If you need it sent back I still have the box and the plastic and everything it came with, I just need to know what to do next. The order number again is OS-3811230. Thank you, Kevin",
+ "attachments": [
+  {
+   "filename": "image0.jpeg",
+   "stored_as": "photo.jpg",
+   "sha256": "fc5cbf56a894b79c81f12ddc59981b985064dad6c124d414ccb5a397995bbb86",
+   "phash": "9b21c4c6f3e2e3e0"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0237",
+ "channel": "web_form",
+ "received_at": "2026-01-12T23:39:57",
+ "from_name": "Tiffany Gaines",
+ "from_email": "tiffgaines86@fernmail.example",
+ "claimed_order_id": "OS-3550460",
+ "subject": "Return or exchange",
+ "message": "The return option for the thinking hat on order OS-3550460 says not eligible and I'm not sure what that means. I don't need it after all and want to send it back for a refund. A supervisor already noted an exception on the order. Can you see that?",
+ "attachments": [
+  {
+   "filename": "photo.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "d9b3225658d97986691bef8e85a426245ea0d9bba0c2d3e7f861603d3be34402",
+   "phash": "c32d3c36c9c3658e"
+  }
+ ]
+}

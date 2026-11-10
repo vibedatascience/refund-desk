@@ -1,0 +1,214 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3808110",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3808110",
+  "placed_on": "2025-12-26",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3001-TER-S",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "terracotta",
+    "size": "S",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 15,
+    "unit_price": 21.25,
+    "qty": 1,
+    "line_total": 21.25
+   },
+   {
+    "line": 2,
+    "sku": "CL-1001-SAG",
+    "product": "hat",
+    "name": "Claude Thinking Hat",
+    "color": "sage",
+    "size": null,
+    "flags": [],
+    "list_price": 28.0,
+    "discount_pct": 15,
+    "unit_price": 23.8,
+    "qty": 2,
+    "line_total": 47.6
+   }
+  ],
+  "totals": {
+   "subtotal": 68.85,
+   "promo_code": "FIRSTLINE15",
+   "shipping_fee": 14.95,
+   "tax": 5.87,
+   "total": 89.67
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "2798"
+  },
+  "ship_to": {
+   "name": "Rosa Trujillo",
+   "street": "9089 County Rd 525",
+   "city": "Kewanna",
+   "state": "IN",
+   "zip": "46939"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3808110-S1",
+    "lines": [
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Priority",
+    "tracking_no": "WB983588514399",
+    "shipped_on": "2025-12-27",
+    "delivered_on": "2025-12-29",
+    "events": [
+     {
+      "time": "2025-12-27 13:36",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-27 19:06",
+      "status": "arrived_at_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-28 20:32",
+      "status": "departed_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2025-12-29 07:18",
+      "status": "out_for_delivery",
+      "location": "Logansport, IN"
+     },
+     {
+      "time": "2025-12-29 18:06",
+      "status": "delivered",
+      "location": "Kewanna, IN"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3808110-S2",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Priority",
+    "tracking_no": "WB980651362668",
+    "shipped_on": "2025-12-29",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-29 09:58",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2025-12-29 21:19",
+      "status": "departed_facility",
+      "location": "Roanoke, TX"
+     },
+     {
+      "time": "2025-12-30 02:23",
+      "status": "arrived_at_facility",
+      "location": "Indianapolis, IN"
+     },
+     {
+      "time": "2025-12-31 07:24",
+      "status": "out_for_delivery",
+      "location": "Logansport, IN"
+     },
+     {
+      "time": "2025-12-31 15:41",
+      "status": "delivered",
+      "location": "Kewanna, IN"
+     }
+    ]
+   }
+  ],
+  "gift": {
+   "recipient_name": "Rosa Trujillo",
+   "recipient_email": "rosatrujillo68@homelink.example",
+   "gift_message": "Get well soon Rosa. Rest up and let people take care of you for once. Love, Dennis"
+  }
+ },
+ "customer": {
+  "customer_id": "C-2712859",
+  "name": "Dennis Beasley",
+  "email": "dbeasley55@fernmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-12-26",
+  "lifetime_orders": 1,
+  "lifetime_spend": 89.67,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "newsletter"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-1001-CHA": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-1001-CRE": {
+   "on_hand": 68,
+   "status": "in_stock"
+  },
+  "CL-1001-SAG": {
+   "on_hand": 120,
+   "status": "in_stock"
+  },
+  "CL-1001-TER": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-CHA-S": {
+   "on_hand": 54,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-S": {
+   "on_hand": 162,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-S": {
+   "on_hand": 169,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-2XL": {
+   "on_hand": 27,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-L": {
+   "on_hand": 194,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-TER-S": {
+   "on_hand": 60,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-XL": {
+   "on_hand": 60,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-XS": {
+   "on_hand": 32,
+   "status": "in_stock"
+  }
+ }
+}

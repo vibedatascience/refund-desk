@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0025",
+ "channel": "email",
+ "received_at": "2026-01-05T14:48:10",
+ "from_name": "Brianna Pacheco",
+ "from_email": "bri.pacheco07@inboxmail.example",
+ "claimed_order_id": "OS-3633277",
+ "subject": "Return",
+ "message": "I want to return the tee from order OS-3633277. Can I just get a refund on it?",
+ "attachments": [
+  {
+   "filename": "image3.jpeg",
+   "stored_as": "photo.jpg",
+   "sha256": "c0e5c64068909434698db506bef6c1c3bb41f8d26d2248e6c6e573a8afb17af1",
+   "phash": "a6d6c28b746a3539"
+  }
+ ]
+}

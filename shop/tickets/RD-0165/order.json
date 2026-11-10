@@ -1,0 +1,191 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3821368",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3821368",
+  "placed_on": "2026-01-02",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3001-CHA-XS",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "charcoal",
+    "size": "XS",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 0,
+    "unit_price": 25.0,
+    "qty": 1,
+    "line_total": 25.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-4002-TER",
+    "product": "plush",
+    "name": "Claude Plush, Large",
+    "color": "terracotta",
+    "size": null,
+    "flags": [],
+    "list_price": 48.0,
+    "discount_pct": 0,
+    "unit_price": 48.0,
+    "qty": 1,
+    "line_total": 48.0
+   },
+   {
+    "line": 3,
+    "sku": "CL-2001-CRE",
+    "product": "mug",
+    "name": "Claude Mug, 12 oz",
+    "color": "cream",
+    "size": null,
+    "flags": [],
+    "list_price": 16.0,
+    "discount_pct": 0,
+    "unit_price": 16.0,
+    "qty": 1,
+    "line_total": 16.0
+   }
+  ],
+  "totals": {
+   "subtotal": 89.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 4.9,
+   "total": 93.9
+  },
+  "payment": {
+   "method": "digital_wallet",
+   "last4": "5082"
+  },
+  "ship_to": {
+   "name": "Lisa Hart",
+   "street": "745 Mayfield Way",
+   "city": "Medford",
+   "state": "WI",
+   "zip": "54451"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3821368-S1",
+    "lines": [
+     1,
+     2,
+     3
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB278910423266",
+    "shipped_on": "2026-01-03",
+    "delivered_on": "2026-01-07",
+    "events": [
+     {
+      "time": "2026-01-03 09:34",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2026-01-04 06:27",
+      "status": "held_at_facility",
+      "location": "Obetz, OH"
+     },
+     {
+      "time": "2026-01-05 18:50",
+      "status": "arrived_at_facility",
+      "location": "Oak Creek, WI"
+     },
+     {
+      "time": "2026-01-07 07:18",
+      "status": "out_for_delivery",
+      "location": "Wausau, WI"
+     },
+     {
+      "time": "2026-01-07 15:44",
+      "status": "delivered",
+      "location": "Medford, WI"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1348428",
+  "name": "Lisa Hart",
+  "email": "lisahart@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2023-10-23",
+  "lifetime_orders": 10,
+  "lifetime_spend": 749.26,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-2001-CHA": {
+   "on_hand": 85,
+   "status": "in_stock"
+  },
+  "CL-2001-CRE": {
+   "on_hand": 121,
+   "status": "in_stock"
+  },
+  "CL-2001-SAG": {
+   "on_hand": 2,
+   "status": "low_stock"
+  },
+  "CL-2001-TER": {
+   "on_hand": 594,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-2XL": {
+   "on_hand": 43,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-L": {
+   "on_hand": 93,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-CHA-S": {
+   "on_hand": 46,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XL": {
+   "on_hand": 27,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XS": {
+   "on_hand": 61,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-XS": {
+   "on_hand": 11,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-XS": {
+   "on_hand": 136,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-XS": {
+   "on_hand": 34,
+   "status": "in_stock"
+  },
+  "CL-4002-TER": {
+   "on_hand": 105,
+   "status": "in_stock"
+  }
+ }
+}

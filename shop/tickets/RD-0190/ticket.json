@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0190",
+ "channel": "app",
+ "received_at": "2026-01-12T07:50:13",
+ "from_name": "Vivek Subramanian",
+ "from_email": "vivek.subramanian@fernmail.example",
+ "claimed_order_id": "OS-3828430",
+ "subject": null,
+ "message": "Can you send me another plush? The one that arrived has a rip in it, and the box was a little scuffed. I'm worried it's only going to keep coming apart. Order OS-3828430, is that enough to go on?",
+ "attachments": [
+  {
+   "filename": "upload_1768221613.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "e73a5dbde1a23506cc034d292373e670f2ba5a086bdaf2617b320b29e442a476",
+   "phash": "c6243939f8b687c3"
+  }
+ ]
+}

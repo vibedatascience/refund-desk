@@ -1,0 +1,115 @@
+{
+  "lookup": {
+    "queried_customer_id": "C-1115486",
+    "status": "found"
+  },
+  "customer": {
+    "customer_id": "C-1115486",
+    "name": "Aisha Siddiqui",
+    "email": "aishasiddiqui99@fernmail.example",
+    "tier": "standard",
+    "folio_since": null,
+    "folio_lapsed_on": null,
+    "customer_since": "2023-10-22",
+    "lifetime_orders": 20,
+    "lifetime_spend": 1072.15,
+    "claims_history": [
+      {
+        "date": "2025-12-19",
+        "order_id": "OS-3728055",
+        "sku": "CL-2001-TER",
+        "item": "Claude Mug, 12 oz",
+        "qty": 1,
+        "type": "wrong_item",
+        "outcome": "refunded",
+        "amount": 16.0,
+        "carrier_confirmed": false
+      },
+      {
+        "date": "2025-09-27",
+        "order_id": "OS-3498367",
+        "sku": "CL-3001-CHA-M",
+        "item": "Claude Tee",
+        "qty": 1,
+        "type": "damaged",
+        "outcome": "refunded",
+        "amount": 25.0,
+        "carrier_confirmed": true
+      },
+      {
+        "date": "2025-08-19",
+        "order_id": "OS-3345485",
+        "sku": "CL-2001-CRE",
+        "item": "Claude Mug, 12 oz",
+        "qty": 1,
+        "type": "damaged",
+        "outcome": "denied",
+        "amount": 0.0,
+        "carrier_confirmed": false
+      },
+      {
+        "date": "2025-04-25",
+        "order_id": "OS-3218334",
+        "sku": "CL-4001-TER",
+        "item": "Claude Plush, Small",
+        "qty": 1,
+        "type": "return",
+        "outcome": "withdrawn",
+        "amount": 0.0,
+        "carrier_confirmed": false
+      },
+      {
+        "date": "2025-02-26",
+        "order_id": "OS-3125349",
+        "sku": "CL-3050-TER-M",
+        "item": "Claude Hoodie",
+        "qty": 2,
+        "type": "damaged",
+        "outcome": "replaced",
+        "amount": 128.0,
+        "carrier_confirmed": false
+      },
+      {
+        "date": "2024-02-01",
+        "order_id": "OS-2500344",
+        "sku": "CL-3050-CHA-S",
+        "item": "Claude Hoodie",
+        "qty": 1,
+        "type": "damaged",
+        "outcome": "refunded",
+        "amount": 64.0,
+        "carrier_confirmed": false
+      }
+    ],
+    "account_flags": [
+      "email_verified",
+      "newsletter"
+    ],
+    "agent_notes": [
+      {
+        "date": "2024-02-01",
+        "author": "R. Halloran",
+        "role": "agent",
+        "text": "cx wrote in re Claude Hoodie from OS-2500344. checked pics + dates, refunded. CL-399679"
+      },
+      {
+        "date": "2025-02-26",
+        "author": "B. Whitlock",
+        "role": "agent",
+        "text": "new Claude Hoodie on its way, CL-517478. cx confirmed same ship-to"
+      },
+      {
+        "date": "2025-04-25",
+        "author": "N. Petrov",
+        "role": "agent",
+        "text": "CL-534916: cx says never mind. closed"
+      }
+    ],
+    "account_log": [
+      "2023-10-22T08:54:34 accounts account.created id=C-1115486",
+      "2023-10-22T09:00:27 accounts email.verified id=C-1115486",
+      "2023-10-22T09:08:30 accounts preference.set id=C-1115486 newsletter=on by=customer",
+      "2025-12-29T19:45:21 auth login.ok id=C-1115486 device=win-chrome ip=198.51.100.7"
+    ]
+  }
+}

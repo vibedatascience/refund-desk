@@ -1,0 +1,184 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3633277",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3633277",
+  "placed_on": "2025-11-11",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3001-CHA-2XL",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "charcoal",
+    "size": "2XL",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 0,
+    "unit_price": 25.0,
+    "qty": 1,
+    "line_total": 25.0
+   }
+  ],
+  "totals": {
+   "subtotal": 25.0,
+   "promo_code": null,
+   "shipping_fee": 6.95,
+   "tax": 2.63,
+   "total": 34.58
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "6184"
+  },
+  "ship_to": {
+   "name": "Brianna Pacheco",
+   "street": "6291 Hickory Dr., Apt 3",
+   "city": "Houston",
+   "state": "TX",
+   "zip": "77084"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3633277-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB834957359801",
+    "shipped_on": "2025-11-12",
+    "delivered_on": "2025-11-14",
+    "events": [
+     {
+      "time": "2025-11-12 16:22",
+      "status": "label_created",
+      "location": "Fort Worth, TX"
+     },
+     {
+      "time": "2025-11-12 21:13",
+      "status": "arrived_at_facility",
+      "location": "Roanoke, TX"
+     },
+     {
+      "time": "2025-11-13 11:50",
+      "status": "departed_facility",
+      "location": "Roanoke, TX"
+     },
+     {
+      "time": "2025-11-14 07:55",
+      "status": "out_for_delivery",
+      "location": "Houston, TX"
+     },
+     {
+      "time": "2025-11-14 16:55",
+      "status": "delivered",
+      "location": "Houston, TX"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-1429427",
+  "name": "Brianna Pacheco",
+  "email": "bri.pacheco07@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2024-03-13",
+  "lifetime_orders": 6,
+  "lifetime_spend": 331.06,
+  "claims_history": [
+   {
+    "date": "2025-10-29",
+    "order_id": "OS-3556734",
+    "sku": "CL-4002-TER",
+    "item": "Claude Plush, Large",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "refunded",
+    "amount": 48.0,
+    "carrier_confirmed": true
+   },
+   {
+    "date": "2025-07-22",
+    "order_id": "OS-3365036",
+    "sku": "CL-2004-CRE",
+    "item": "Claude Mug Set of 4",
+    "qty": 1,
+    "type": "damaged",
+    "outcome": "replaced",
+    "amount": 56.0,
+    "carrier_confirmed": false
+   }
+  ],
+  "account_flags": [
+   "address_changed_2025",
+   "email_verified"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-07-22",
+    "author": "F. Lucero",
+    "role": "agent",
+    "text": "OS-3365036 - sent a new Claude Mug Set of 4, no need to send the old one back. CL-564862"
+   },
+   {
+    "date": "2025-10-29",
+    "author": "L. Freeman",
+    "role": "agent",
+    "text": "OS-3556734 Claude Plush - pics ok, refunded to original payment. CL-602656"
+   },
+   {
+    "date": "2025-11-08",
+    "author": "B. Whitlock",
+    "role": "agent",
+    "text": "carrier claim on OS-3556734 paid out by Wrenbolt. noted on CL-602656"
+   }
+  ]
+ },
+ "inventory": {
+  "CL-3001-CHA-2XL": {
+   "on_hand": 46,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-L": {
+   "on_hand": 140,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-CHA-S": {
+   "on_hand": 59,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XL": {
+   "on_hand": 52,
+   "status": "in_stock"
+  },
+  "CL-3001-CHA-XS": {
+   "on_hand": 81,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-2XL": {
+   "on_hand": 23,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-2XL": {
+   "on_hand": 7,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-2XL": {
+   "on_hand": 29,
+   "status": "in_stock"
+  }
+ }
+}

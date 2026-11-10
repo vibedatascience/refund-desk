@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0156",
+ "channel": "app",
+ "received_at": "2026-01-09T15:35:09",
+ "from_name": "Stacy Nakamura",
+ "from_email": "snakamura75@webmail.example",
+ "claimed_order_id": "OS-3815666",
+ "subject": null,
+ "message": "claude mug recived it smashed\ncan you resend another one pls\norder OS-3815666",
+ "attachments": [
+  {
+   "filename": "upload_1767988569.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "c3182d2e5c32f0370eceb8ea8405d4ef52409c851e30834ab75218ab5e4afcf8",
+   "phash": "b750c83b74e6c9c8"
+  }
+ ]
+}

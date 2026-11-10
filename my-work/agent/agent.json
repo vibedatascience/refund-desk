@@ -1,0 +1,9 @@
+{
+ "playbook": "single",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "tools": [
+  "lookup_order",
+  "lookup_customer"
+ ]
+}

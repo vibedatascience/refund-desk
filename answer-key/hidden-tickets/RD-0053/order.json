@@ -1,0 +1,202 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3802232",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3802232",
+  "placed_on": "2025-12-23",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-2001-CHA",
+    "product": "mug",
+    "name": "Claude Mug, 12 oz",
+    "color": "charcoal",
+    "size": null,
+    "flags": [],
+    "list_price": 16.0,
+    "discount_pct": 0,
+    "unit_price": 16.0,
+    "qty": 1,
+    "line_total": 16.0
+   },
+   {
+    "line": 2,
+    "sku": "CL-3050-CHA-L",
+    "product": "hoodie",
+    "name": "Claude Hoodie",
+    "color": "charcoal",
+    "size": "L",
+    "flags": [],
+    "list_price": 64.0,
+    "discount_pct": 0,
+    "unit_price": 64.0,
+    "qty": 1,
+    "line_total": 64.0
+   }
+  ],
+  "totals": {
+   "subtotal": 80.0,
+   "promo_code": null,
+   "shipping_fee": 0.0,
+   "tax": 5.0,
+   "total": 85.0
+  },
+  "payment": {
+   "method": "credit_card",
+   "last4": "9914"
+  },
+  "ship_to": {
+   "name": "Nancy Olsen",
+   "street": "14 Redmond St",
+   "city": "Braintree",
+   "state": "MA",
+   "zip": "02184"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3802232-S1",
+    "lines": [
+     2
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB132071276399",
+    "shipped_on": "2025-12-24",
+    "delivered_on": "2025-12-29",
+    "events": [
+     {
+      "time": "2025-12-24 14:58",
+      "status": "label_created",
+      "location": "Allentown, PA"
+     },
+     {
+      "time": "2025-12-27 02:37",
+      "status": "departed_facility",
+      "location": "Breinigsville, PA"
+     },
+     {
+      "time": "2025-12-27 07:53",
+      "status": "arrived_at_facility",
+      "location": "Shrewsbury, MA"
+     },
+     {
+      "time": "2025-12-29 06:20",
+      "status": "out_for_delivery",
+      "location": "Brockton, MA"
+     },
+     {
+      "time": "2025-12-29 19:02",
+      "status": "delivered",
+      "location": "Braintree, MA"
+     }
+    ]
+   },
+   {
+    "shipment_id": "OS-3802232-S2",
+    "lines": [
+     1
+    ],
+    "carrier": "Mottlewing Parcel",
+    "service": "Ground",
+    "tracking_no": "MW2077541961US",
+    "shipped_on": "2025-12-27",
+    "delivered_on": "2025-12-31",
+    "events": [
+     {
+      "time": "2025-12-27 07:46",
+      "status": "label_created",
+      "location": "Columbus, OH"
+     },
+     {
+      "time": "2025-12-28 01:31",
+      "status": "held_at_facility",
+      "location": "Grove City, OH"
+     },
+     {
+      "time": "2025-12-29 23:35",
+      "status": "arrived_at_facility",
+      "location": "Shrewsbury, MA"
+     },
+     {
+      "time": "2025-12-31 10:39",
+      "status": "out_for_delivery",
+      "location": "Brockton, MA"
+     },
+     {
+      "time": "2025-12-31 12:57",
+      "status": "delivered",
+      "location": "Braintree, MA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2449351",
+  "name": "Nancy Olsen",
+  "email": "nancyandbobolsen@inboxmail.example",
+  "tier": "standard",
+  "folio_since": null,
+  "folio_lapsed_on": null,
+  "customer_since": "2025-07-14",
+  "lifetime_orders": 3,
+  "lifetime_spend": 169.03,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified",
+   "paperless_invoices"
+  ],
+  "agent_notes": []
+ },
+ "inventory": {
+  "CL-2001-CHA": {
+   "on_hand": 117,
+   "status": "in_stock"
+  },
+  "CL-2001-CRE": {
+   "on_hand": 145,
+   "status": "in_stock"
+  },
+  "CL-2001-SAG": {
+   "on_hand": 3,
+   "status": "low_stock"
+  },
+  "CL-2001-TER": {
+   "on_hand": 724,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-2XL": {
+   "on_hand": 3,
+   "status": "low_stock"
+  },
+  "CL-3050-CHA-L": {
+   "on_hand": 67,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-M": {
+   "on_hand": 74,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-S": {
+   "on_hand": 39,
+   "status": "in_stock"
+  },
+  "CL-3050-CHA-XL": {
+   "on_hand": 29,
+   "status": "in_stock"
+  },
+  "CL-3050-OAT-L": {
+   "on_hand": 79,
+   "status": "in_stock"
+  },
+  "CL-3050-TER-L": {
+   "on_hand": 48,
+   "status": "in_stock"
+  }
+ }
+}

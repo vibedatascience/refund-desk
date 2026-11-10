@@ -1,0 +1,148 @@
+{
+ "lookup": {
+  "queried_order_id": "OS-3822086",
+  "status": "found"
+ },
+ "order": {
+  "order_id": "OS-3822086",
+  "placed_on": "2026-01-02",
+  "status": "delivered",
+  "items": [
+   {
+    "line": 1,
+    "sku": "CL-3001-TER-XL",
+    "product": "tee",
+    "name": "Claude Tee",
+    "color": "terracotta",
+    "size": "XL",
+    "flags": [],
+    "list_price": 25.0,
+    "discount_pct": 20,
+    "unit_price": 20.0,
+    "qty": 1,
+    "line_total": 20.0
+   }
+  ],
+  "totals": {
+   "subtotal": 20.0,
+   "promo_code": "FOLIO20",
+   "shipping_fee": 0.0,
+   "tax": 1.55,
+   "total": 21.55
+  },
+  "payment": {
+   "method": "debit_card",
+   "last4": "5205"
+  },
+  "ship_to": {
+   "name": "Ebony Harris",
+   "street": "2034 Pine Hollow Dr",
+   "city": "Fontana",
+   "state": "CA",
+   "zip": "92336"
+  },
+  "delivery_instructions": null,
+  "shipments": [
+   {
+    "shipment_id": "OS-3822086-S1",
+    "lines": [
+     1
+    ],
+    "carrier": "Wrenbolt Express",
+    "service": "Standard",
+    "tracking_no": "WB700696635244",
+    "shipped_on": "2026-01-03",
+    "delivered_on": "2026-01-06",
+    "events": [
+     {
+      "time": "2026-01-03 07:48",
+      "status": "label_created",
+      "location": "Reno, NV"
+     },
+     {
+      "time": "2026-01-04 16:36",
+      "status": "departed_facility",
+      "location": "Fernley, NV"
+     },
+     {
+      "time": "2026-01-06 03:25",
+      "status": "departed_facility",
+      "location": "Ontario, CA"
+     },
+     {
+      "time": "2026-01-06 06:31",
+      "status": "out_for_delivery",
+      "location": "San Bernardino, CA"
+     },
+     {
+      "time": "2026-01-06 11:59",
+      "status": "delivered",
+      "location": "Fontana, CA"
+     }
+    ]
+   }
+  ],
+  "gift": null
+ },
+ "customer": {
+  "customer_id": "C-2424456",
+  "name": "Ebony Harris",
+  "email": "ebonyh89@inboxmail.example",
+  "tier": "folio",
+  "folio_since": "2025-06-27",
+  "folio_lapsed_on": null,
+  "customer_since": "2025-06-21",
+  "lifetime_orders": 4,
+  "lifetime_spend": 224.01,
+  "claims_history": [],
+  "account_flags": [
+   "email_verified"
+  ],
+  "agent_notes": [
+   {
+    "date": "2025-06-24",
+    "author": "J. Kim",
+    "role": "agent",
+    "text": "Spoke with customer regarding OS-3335468. Tracking had not updated since pickup; Wrenbolt confirmed it was in transit and a scan was missed. Customer was polite and understanding."
+   }
+  ]
+ },
+ "inventory": {
+  "CL-3001-CHA-XL": {
+   "on_hand": 30,
+   "status": "in_stock"
+  },
+  "CL-3001-CRE-XL": {
+   "on_hand": 47,
+   "status": "in_stock"
+  },
+  "CL-3001-SAG-XL": {
+   "on_hand": 202,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-2XL": {
+   "on_hand": 21,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-L": {
+   "on_hand": 186,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-M": {
+   "on_hand": 0,
+   "status": "out_of_stock"
+  },
+  "CL-3001-TER-S": {
+   "on_hand": 42,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-XL": {
+   "on_hand": 55,
+   "status": "in_stock"
+  },
+  "CL-3001-TER-XS": {
+   "on_hand": 32,
+   "status": "in_stock"
+  }
+ }
+}

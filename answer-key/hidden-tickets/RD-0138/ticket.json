@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0138",
+ "channel": "web_form",
+ "received_at": "2026-01-08T15:52:40",
+ "from_name": "Sanjay Kapadia",
+ "from_email": "sanjay.kapadia76@quickpost.example",
+ "claimed_order_id": "#3815429",
+ "subject": "Item arrived damaged",
+ "message": "Can I get a refund on order #3815429? The two plushies came on Tuesday and both have marks on the fabric. They felt damp coming out of the box and the marks have not gone away.\n\nSanjay",
+ "attachments": [
+  {
+   "filename": "20260108_123325.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "0db49d072f43fd13e58742141f130a9a0b37d49f7b49d8508c48507f3ea72eb9",
+   "phash": "97333caccad3432c"
+  }
+ ]
+}

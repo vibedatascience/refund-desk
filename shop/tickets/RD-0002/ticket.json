@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0002",
+ "channel": "web_form",
+ "received_at": "2026-01-05T06:12:55",
+ "from_name": "Aisha Siddiqui",
+ "from_email": "aishasiddiqui99@fernmail.example",
+ "claimed_order_id": "OS-3812325",
+ "subject": "Item arrived damaged",
+ "message": "hi my thinking hat came with a rip in it 😕 its definately not wearable like that. could i get a refund pls thanks 😊",
+ "attachments": [
+  {
+   "filename": "DSC09553.JPG",
+   "stored_as": "photo.jpg",
+   "sha256": "30cf2a810c2c40434afc44f40318a53a8feeea2a95e19c7ba7b9c5d77849cf3b",
+   "phash": "c3cd7cc0879b8e34"
+  }
+ ]
+}

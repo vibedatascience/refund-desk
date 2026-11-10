@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0053",
+ "channel": "email",
+ "received_at": "2026-01-06T08:43:22",
+ "from_name": "Nancy Olsen",
+ "from_email": "nancyandbobolsen@inboxmail.example",
+ "claimed_order_id": "OS-3802232",
+ "subject": "Wrong size hoodie, order OS-3802232",
+ "message": "Hello,\n\nI ordered a Claude hoodie in charcoal, size L, on December 23. The order number is OS-3802232. It was delivered on the 29th. When I opened the bag I checked the tag and it says XL, not L. The color is right and it is the same hoodie I picked out, only the size is wrong. My order confirmation shows size L, so the mistake was not on my end. I have not worn it.\n\nPlease send me a replacement in size L.\n\nThank you,\nNancy",
+ "attachments": [
+  {
+   "filename": "20260105_065225.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "86285dfe62f1cc7772c72de280a6015e5741c72e256abc5e975f1f642ffd28fc",
+   "phash": "ae962d552e723d44"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "ticket_id": "RD-0185",
+ "channel": "web_form",
+ "received_at": "2026-01-11T15:21:32",
+ "from_name": "Miguel Lozano",
+ "from_email": "miguel.lozano76@skymail.example",
+ "claimed_order_id": "OS-3829906",
+ "subject": "Item arrived damaged",
+ "message": "Hola, recibí el pedido OS-3829906 el jueves. Al abrir la caja, las gorras estaban húmedas y con manchas. Son las 10 que pedí y todas están arruinadas, así que no puedo usar ninguna. Les pido por favor un reembolso. Quedo atento a su respuesta. Muchas gracias. Miguel Lozano",
+ "attachments": [
+  {
+   "filename": "IMG_9304.jpg",
+   "stored_as": "photo.jpg",
+   "sha256": "b2a3c48a9ee769101e19348a031b46939cdf16d9e26c527923b12fae36e1a740",
+   "phash": "c0686dd66ccf332c"
+  }
+ ]
+}
